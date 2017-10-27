@@ -1,0 +1,24 @@
+.navbar-form {
+    padding: 10px 15px;
+    margin-top: 2.5em !important;
+    margin-right: -15px;
+    margin-bottom: 8px;
+    margin-left: -15px;
+    border-top: none !important;
+    border-bottom: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.headerPurple{
+	background: #000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo{
+	width:110px;
+	height:80px;
+	
+}
+
+.navbar {min-height:120px !important}

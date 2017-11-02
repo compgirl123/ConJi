@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -123,3 +124,10 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
+
+
+        <?php
+            echo 'How are you?';
+        ?>
+  
+

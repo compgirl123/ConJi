@@ -49,7 +49,7 @@
             </div>
               -->
               <div class="form-group" style="padding: 20px;">
-              <a href="#" >Register</a> or <a href="#" >Sign In</a> 
+              <a href="#" >Register</a> or <a href="login/login.php" >Sign In</a> 
             </div>
             
               

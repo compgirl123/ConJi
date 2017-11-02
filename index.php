@@ -14,13 +14,15 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 	
 	<!--customCss-->
-	<link href="css/style.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+ 
+      
 	
   </head>
 
   <body>
 
-    <nav class="navbar headerPurple navbar-fixed-top">
+    <nav id="headerNav" class="navbar headerPurple navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -30,30 +32,92 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">
-			<img  class="logo" src="img/Conji_Logo_header.png">
+			ConJi
 		  </a>
+          Concordia's International Market  
         </div>
+          
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
-            <div class="form-group">
+            <!--
+              <div class="form-group">
               <input type="text" placeholder="Email" class="form-control">
             </div>
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
+              -->
+              <div class="form-group" style="padding: 20px;">
+              <a href="#" >Register</a> or <a href="#" >Sign In</a> 
+            </div>
+            
+              
+              
+              <button type="submit" class="btn btn-success">Post Ad</button>
+              
+   
+           
+        
+              
           </form>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
+      <div id="searchPanel" class="container" style="margin-top: 2em; padding-top: 50px;">
+    <div class="panel panel-default">
+  <div class="panel-body">
+        <img src="#" alt="funcky pic spot">
+        <form class="navbar-form navbar-right" style="margin:none; padding:none;">
+           
+            <div class="btn-group">
+             
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Location <span class="caret"></span>
+  </button>
 
+  <ul class="dropdown-menu">
+    <li><a href="#">Abitibi-Temiscamingue</a></li>
+    <li><a href="#">Baie-Comeau</a></li>
+      <li><a href="#">Centre-du-Quebec</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+              <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+  </div>
+</div>      
+
+      </div>
+
+        <div id="fastHotShopSection" class="container" style="background-color:  #ff2800; width:100%; padding:1em; margin:0;">
+          
+        <div>
+        <h1 style="color: white;">HOT SHOPS!</h1>
+            <div id="top3HotShops" class="top3HotShops">
+                <ul class="ulHorizontal">
+                    <li><a href=""><img src="" alt="choice1"></a></li>
+                    <li><a href=""><img src="" alt="choice2"></a></li>
+                    <li><a href=""><img src="" alt="choice3"></a></li>
+                    
+                </ul>
+            </div>
+            
+        </div>  
+       
+      </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+       <!--customJavaScript-->
+    <script src="js/custom.js"></script>      
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>

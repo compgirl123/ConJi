@@ -30,7 +30,7 @@ html{
               text-align:center;
           }      
     .container .row #categoryElement .categoryTitle a{
-    color: green;
+    color: white;
         text-align: center;
         text-decoration: none;
 }
@@ -119,8 +119,120 @@ height:100%;
   width: 100%;
 height:100%;
 }
+          
+.bgimg-5 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/tutorCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
 
-          .caption {
+ .bgimg-6 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/eventCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+ .bgimg-7 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/photoCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-8 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/trainerCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-9 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/rentCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-10 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/carCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-11 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/apartmentCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-12 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/weddingCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.caption {
   position: absolute;
   top: 50%;
   left:0;
@@ -287,7 +399,7 @@ height:100%;
                 <h1 class="categoryTitle"><a href="#">Services</a></h1>
 
                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="tutors">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-5">
                         
                           <div class="caption">
                             <p class="border">Tutors</p>
@@ -296,7 +408,7 @@ height:100%;
                   </div>
                   
                    <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="ePlanners">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-6">
                         
                           <div class="caption">
                             <p class="border">Event Planners</p>
@@ -305,7 +417,7 @@ height:100%;
                   </div>
                   
                    <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="photographers">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-7">
                         
                           <div class="caption">
                             <p class="border">Photographers</p>
@@ -314,7 +426,7 @@ height:100%;
                   </div>
                   
                    <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="pTrainer">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-8">
                         
                           <div class="caption">
                             <p class="border">Personal Trainers</p>
@@ -327,7 +439,7 @@ height:100%;
                 <h1 class="categoryTitle"><a href="#">Rent</a></h1>
 
                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="rElectronics">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-9">
                         
                           <div class="caption">
                             <p class="border">Electronics</p>
@@ -336,7 +448,7 @@ height:100%;
                   </div>
                   
                    <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="rCar">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-10">
                         
                           <div class="caption">
                             <p class="border">Car</p>
@@ -345,7 +457,7 @@ height:100%;
                   </div>
                   
                    <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="rApartment">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-11">
                         
                           <div class="caption">
                             <p class="border">Apartments</p>
@@ -354,7 +466,7 @@ height:100%;
                   </div>
                   
                    <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="wDress">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-12">
                         
                           <div class="caption">
                             <p class="border">Wedding - Dresses</p>

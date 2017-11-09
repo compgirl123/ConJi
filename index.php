@@ -394,7 +394,7 @@ height:100%;
             <div id="top3HotShops" class="top3HotShops">
                 <ul class="ulHorizontal">
                     <li><a href=""><img src="img/nike.png" alt="choice1" style="width:200px;"></a></li>
-                    <li><a href=""><img src="img/nikon-logo.jpg" alt="choice2" style="width:200px;"></a></li>
+                    <li><a href=""><img src="img/Nikon-logo.jpg" alt="choice2" style="width:200px;"></a></li>
                     <li><a href=""><img src="img/deserres-logo.png" alt="choice3" style="width:200px;"></a></li>
                 </ul>
             </div>

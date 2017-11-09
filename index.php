@@ -15,16 +15,260 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 	
 	<!--customCss-->
-	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet" type="text/css" >
  
-      
+      <style>
+html{
+  position: relative;
+  min-height: 100%;
+
+}
+
+    /* homepage ul li category css. */
+          .container .row #categoryElement .categoryTitle{
+              width:100%;
+              text-align:center;
+          }      
+    .container .row #categoryElement .categoryTitle a{
+    color: white;
+        text-align: center;
+        text-decoration: none;
+}
+
+
+.container .row #categoryElement ul > li {
+    list-style-type: none;
+    color: purple;
+    text-decoration: none;
+}
+ 
+.container .row #categoryElement ul > li a:hover {
+    background-color: red;
+    text-decoration: none;
+   
+}
+/********************************/
+
+          
+.buyClothesOption {
+ 
+
+    background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/clothesCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+}
+
+.bgimg-1 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/clothesCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-2 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/booksCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-3 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/electronicsCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-4 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/instrumentsCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-5 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/tutorCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+ .bgimg-6 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/eventCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+ .bgimg-7 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/photoCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-8 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/trainerCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-9 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/rentCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-10 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/carCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-11 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/apartmentCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-12 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/weddingCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.caption {
+  position: absolute;
+  top: 50%;
+  left:0;
+              right:0;
+  text-align: center;
+  color: #000;
+}
+
+.caption p.border {
+  
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+  font-size: 0.90em;
+  letter-spacing: 10px;
+}
+          
+/*     */
+.footer{
+    margin-top:10px;
+    padding:10px;
+    
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
+    background-color: #1B1B1E;
+}
+      </style>
 	
   </head>
 
   <body>
 
-    <nav id="headerNav" class="navbar headerPurple navbar-fixed-top">
-      <div class="container">
+    <nav id="headerNav" class="navbar headerPurple navbar-fixed-top" style="background-color: #5998C5;">
+      <div class="container" >
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -35,37 +279,21 @@
           <a class="navbar-brand" href="#">
 			ConJi
 		  </a>
-          Concordia's International Market  
+          The Student Life Market- 
         </div>
           
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
-            <!--
-              <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-              -->
               <div class="form-group" style="padding: 20px;">
               <a href="#" >Register</a> or <a href="login/login.php" >Sign In</a> 
             </div>
-            
-              
-              
               <button type="submit" class="btn btn-success">Post Ad</button>
-              
-   
-           
-        
-              
           </form>
         </div><!--/.navbar-collapse -->
       </div>
-    </nav>
-
-      <div id="searchPanel" class="container" style="margin-top: 2em; padding-top: 50px;">
+        
+    
+        <div id="searchPanel" class="container">
     <div class="panel panel-default">
   <div class="panel-body">
         <img src="#" alt="funcky pic spot">
@@ -81,6 +309,7 @@
     <li><a href="#">Abitibi-Temiscamingue</a></li>
     <li><a href="#">Baie-Comeau</a></li>
       <li><a href="#">Centre-du-Quebec</a></li>
+      <li><a href="#">Centre-du-Quebec</a></li>
     <li role="separator" class="divider"></li>
     <li><a href="#">Separated link</a></li>
   </ul>
@@ -94,23 +323,207 @@
 </div>      
 
       </div>
+    </nav>
 
-        <div id="fastHotShopSection" class="container" style="background-color:  #ff2800; width:100%; padding:1em; margin:0;">
+      
+
+        <div id="fastHotShopSection" class="container" style="background-color:  #D8DBE2; width:100%; margin-top: 3em; padding-top: 150px;">
           
-        <div>
+   
         <h1 style="color: white;">HOT SHOPS!</h1>
             <div id="top3HotShops" class="top3HotShops">
                 <ul class="ulHorizontal">
                     <li><a href=""><img src="" alt="choice1"></a></li>
                     <li><a href=""><img src="" alt="choice2"></a></li>
                     <li><a href=""><img src="" alt="choice3"></a></li>
-                    
                 </ul>
             </div>
             
-        </div>  
+     
        
       </div>
+      
+      <div class="container" style="width:100%;">
+      
+          <div class="row" >
+              <div id="categoryElement" class="col-md-6" style="padding:5; margin:0; background-color: #A9BCD0;">
+                <h1 class="categoryTitle"><a href="#">Buy and Sell</a></h1>
+                  
+                  <!--
+                  <ul>
+                    <li><a href="#">Clothing</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Musical Instruments</a></li>
+                  </ul>
+                    -->
+                  
+                  <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="clothing">
+                    <div  class="bgimg-1">
+                        
+                          <div class="caption">
+                            <p class="border">Clothing</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="Books">
+                    <div  class="bgimg-2">
+                        
+                          <div class="caption">
+                            <p class="border">Books</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="Electronics">
+                    <div  class="bgimg-3">
+                        
+                          <div class="caption">
+                            <p class="border">Electronics</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="Instruments">
+                    <div  class="bgimg-4">
+                        
+                          <div class="caption">
+                            <p class="border">Musical Instruments</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+              </div>
+              
+              <div id="categoryElement" class="col-md-6" style="padding:5; margin:0; background-color: #373F51;">
+                <h1 class="categoryTitle"><a href="#">Services</a></h1>
+
+                  <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="tutors">
+                    <div  class="bgimg-5">
+                        
+                          <div class="caption">
+                            <p class="border">Tutors</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="ePlanners">
+                    <div  class="bgimg-6">
+                        
+                          <div class="caption">
+                            <p class="border">Event Planners</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="photographers">
+                    <div  class="bgimg-7">
+                        
+                          <div class="caption">
+                            <p class="border">Photographers</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="pTrainer">
+                    <div  class="bgimg-8">
+                        
+                          <div class="caption">
+                            <p class="border">Personal Trainers</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+              </div>
+              
+               <div id="categoryElement" class="col-md-6" style="padding:5; margin:0; background-color: #A9BCD0;">
+                <h1 class="categoryTitle"><a href="#">Rent</a></h1>
+
+                  <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="rElectronics">
+                    <div  class="bgimg-9">
+                        
+                          <div class="caption">
+                            <p class="border">Electronics</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="rCar">
+                    <div  class="bgimg-10">
+                        
+                          <div class="caption">
+                            <p class="border">Car</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="rApartment">
+                    <div  class="bgimg-11">
+                        
+                          <div class="caption">
+                            <p class="border">Apartments</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="wDress">
+                    <div  class="bgimg-12">
+                        
+                          <div class="caption">
+                            <p class="border">Wedding - Dresses</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+              </div>
+              
+              <div id="categoryElement" class="col-md-6" style="padding:5; margin:0; background-color: #373F51;">
+                <h1 class="categoryTitle"><a href="#">Employment</a></h1>
+
+                  <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="sBusiness">
+                    <div  class="bgimg-1">
+                        
+                          <div class="caption">
+                            <p class="border">Small Business</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="eIndustrial">
+                    <div  class="bgimg-1">
+                        
+                          <div class="caption">
+                            <p class="border">Industrial</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="eCorporation">
+                    <div  class="bgimg-1">
+                        
+                          <div class="caption">
+                            <p class="border">Corporation</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+                  
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="eNPO">
+                    <div  class="bgimg-1">
+                        
+                          <div class="caption">
+                            <p class="border">Non-Profit</p>
+                          </div>
+                    </div>  </a>
+                  </div>
+              </div>
+            
+          </div>
+      </div>
+      
+      <hr>
+      <footer class="footer">
+        <div class="container">
+            <p style="color:white; text-align:center;">COMP353isLit</p>
+        </div>
+      </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

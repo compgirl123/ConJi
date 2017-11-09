@@ -232,6 +232,62 @@ height:100%;
 height:100%;
 }
           
+.bgimg-13 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/sBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-14 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/iBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}  
+
+.bgimg-15 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/cBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+} 
+
+.bgimg-16 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/npoBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+} 
+          
 .caption {
   position: absolute;
   top: 50%;
@@ -248,6 +304,10 @@ height:100%;
   padding: 5px;
   font-size: 0.90em;
   letter-spacing: 10px;
+}
+
+.topStore1{
+              
 }
           
 /*     */
@@ -279,7 +339,7 @@ height:100%;
           <a class="navbar-brand" href="#">
 			ConJi
 		  </a>
-          The Student Life Market- 
+          <P stye="padding-top: 2em;">The Student Life Market-</P> 
         </div>
           
         <div id="navbar" class="navbar-collapse collapse">
@@ -327,15 +387,15 @@ height:100%;
 
       
 
-        <div id="fastHotShopSection" class="container" style="background-color:  #D8DBE2; width:100%; margin-top: 3em; padding-top: 150px;">
+        <div id="fastHotShopSection" class="container" style="background-color:  #D8DBE2; width:100%; margin-top: 12em; padding-top: 10px; padding-bottom: 10px;">
           
    
-        <h1 style="color: white;">HOT SHOPS!</h1>
+        <h1 style="color: black;">POPULAR SHOP</h1>
             <div id="top3HotShops" class="top3HotShops">
                 <ul class="ulHorizontal">
-                    <li><a href=""><img src="" alt="choice1"></a></li>
-                    <li><a href=""><img src="" alt="choice2"></a></li>
-                    <li><a href=""><img src="" alt="choice3"></a></li>
+                    <li><a href=""><img src="img/nike.png" alt="choice1" style="width:200px;"></a></li>
+                    <li><a href=""><img src="img/nikon-logo.jpg" alt="choice2" style="width:200px;"></a></li>
+                    <li><a href=""><img src="img/deserres-logo.png" alt="choice3" style="width:200px;"></a></li>
                 </ul>
             </div>
             
@@ -479,7 +539,7 @@ height:100%;
                 <h1 class="categoryTitle"><a href="#">Employment</a></h1>
 
                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="sBusiness">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-13">
                         
                           <div class="caption">
                             <p class="border">Small Business</p>
@@ -488,7 +548,7 @@ height:100%;
                   </div>
                   
                    <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="eIndustrial">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-14">
                         
                           <div class="caption">
                             <p class="border">Industrial</p>
@@ -497,7 +557,7 @@ height:100%;
                   </div>
                   
                    <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="eCorporation">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-15">
                         
                           <div class="caption">
                             <p class="border">Corporation</p>
@@ -506,7 +566,7 @@ height:100%;
                   </div>
                   
                    <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="eNPO">
-                    <div  class="bgimg-1">
+                    <div  class="bgimg-16">
                         
                           <div class="caption">
                             <p class="border">Non-Profit</p>
@@ -518,7 +578,7 @@ height:100%;
           </div>
       </div>
       
-      <hr>
+ 
       <footer class="footer">
         <div class="container">
             <p style="color:white; text-align:center;">COMP353isLit</p>
@@ -539,8 +599,6 @@ height:100%;
 </html>
 
 
-        <?php
-            echo 'How are you?';
-        ?>
+        
   
 

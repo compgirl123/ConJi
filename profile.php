@@ -351,7 +351,7 @@ height:100%;
       <div class="container">
         <div class="row">
 
-  <div id="navbar" class=" navbar-nav" >
+   <div id="navbar" class=" navbar-nav" >
       <div class="btn-group">
   <button type="button" class="btn btn-danger">Location</button>
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -376,6 +376,7 @@ height:100%;
   </ul>
 </div>
         </div><!--/.nav-collapse -->
+      
 
 
     <div class="input-group">
@@ -398,199 +399,38 @@ height:100%;
           
       </div> <!-- /jumbotron -->
         
-      <div class="container " style="background-color:  #D8DBE2; width:100%;">
-          
-        
-        <h1 style="color: black;">POPULAR SHOP</h1>
-            <div id="top3HotShops" >
-                <ul class="ulHorizontal">
-                    <li><a href=""><img src="img/nike.png" alt="choice1" style="width:200px;"></a></li>
-                    <li><a href=""><img src="img/nikon-logo.jpg" alt="choice2" style="width:200px;"></a></li>
-                    <li><a href=""><img src="img/deserres-logo.png" alt="choice3" style="width:200px;"></a></li>
-                </ul>
-            </div>
-            
      
-       
-      </div>
       
       <div class="container" style="width:100%;">
-      
           <div class="row" >
-              <div id="categoryElement" class="col-md-6" style="padding:5; margin:0; background-color: #A9BCD0;">
-                <h1 class="categoryTitle"><a href="#">Buy and Sell</a></h1>
-                  
-                  <!--
-                  <ul>
-                    <li><a href="#">Clothing</a></li>
-                    <li><a href="#">Books</a></li>
-                    <li><a href="#">Electronics</a></li>
-                    <li><a href="#">Musical Instruments</a></li>
-                  </ul>
-                    -->
-                  
-                  <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="clothing">
-                    <div  class="bgimg-1">
-                        
-                          <div class="caption">
-                            <p class="border">Clothing</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="Books">
-                    <div  class="bgimg-2">
-                        
-                          <div class="caption">
-                            <p class="border">Books</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="Electronics">
-                    <div  class="bgimg-3">
-                        
-                          <div class="caption">
-                            <p class="border">Electronics</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="Instruments">
-                    <div  class="bgimg-4">
-                        
-                          <div class="caption">
-                            <p class="border">Musical Instruments</p>
-                          </div>
-                    </div>  </a>
-                  </div>
+              <div class="panel">
+              <div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="img/x.jpg" alt="x-mark">
+    </a>
+  </div>
+                
+  <div class="col-xs-6 col-md-9">
+      <div class="container">
+        <h1>Title For Post</h1> 
+          <span>Date</span>
+      
+      </div>
+      <br>
+        <div class="container" style="display:block;">
+              <p>blah blah blah. blah blah blah. blah blah blah. blah blah blah.</p>
+      
+        </div>
+    
+      <br>
+      <button type="button" class="btn btn-default navbar-right">Details</button>
+  </div>
+</div>
               </div>
-              
-              <div id="categoryElement" class="col-md-6" style="padding:5; margin:0; background-color: #373F51;">
-                <h1 class="categoryTitle"><a href="#">Services</a></h1>
-
-                  <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="tutors">
-                    <div  class="bgimg-5">
-                        
-                          <div class="caption">
-                            <p class="border">Tutors</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="ePlanners">
-                    <div  class="bgimg-6">
-                        
-                          <div class="caption">
-                            <p class="border">Event Planners</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="photographers">
-                    <div  class="bgimg-7">
-                        
-                          <div class="caption">
-                            <p class="border">Photographers</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="pTrainer">
-                    <div  class="bgimg-8">
-                        
-                          <div class="caption">
-                            <p class="border">Personal Trainers</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-              </div>
-              
-               <div id="categoryElement" class="col-md-6" style="padding:5; margin:0; background-color: #A9BCD0;">
-                <h1 class="categoryTitle"><a href="#">Rent</a></h1>
-
-                  <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="rElectronics">
-                    <div  class="bgimg-9">
-                        
-                          <div class="caption">
-                            <p class="border">Electronics</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="rCar">
-                    <div  class="bgimg-10">
-                        
-                          <div class="caption">
-                            <p class="border">Car</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="rApartment">
-                    <div  class="bgimg-11">
-                        
-                          <div class="caption">
-                            <p class="border">Apartments</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="wDress">
-                    <div  class="bgimg-12">
-                        
-                          <div class="caption">
-                            <p class="border">Wedding - Dresses</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-              </div>
-              
-              <div id="categoryElement" class="col-md-6" style="padding:5; margin:0; background-color: #373F51;">
-                <h1 class="categoryTitle"><a href="#">Employment</a></h1>
-
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="eIndustrial">
-                    <div  class="bgimg-14">
-                        
-                          <div class="caption">
-                            <p class="border">Industrial</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="eCorporation">
-                    <div  class="bgimg-15">
-                        
-                          <div class="caption">
-                            <p class="border">Corporation</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="eNPO">
-                    <div  class="bgimg-16">
-                        
-                          <div class="caption">
-                            <p class="border">Non-Profit</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-                  
-                  
-                  <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="sBusiness">
-                    <div  class="bgimg-13">
-                        
-                          <div class="caption">
-                            <p class="border">Part-Time</p>
-                          </div>
-                    </div>  </a>
-                  </div>
-              </div>
-            
-          </div>    
-        
-
+          </div> 
+          
+          
     </div> <!-- /container -->
 
 

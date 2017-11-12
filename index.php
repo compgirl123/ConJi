@@ -336,16 +336,17 @@ height:100%;
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
-			ConJi
+
+      <a class="navbar-brand" href="#">
+
 		  </a>
-          <P stye="padding-top: 2em;">The Student Life Market-</P> 
+          <!--<p style="padding-top: 2em;">The Student Life Market-</P> -->
         </div>
           
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
               <div class="form-group" style="padding: 20px;">
-              <a href="#" >Register</a> or <a href="login/login.php" >Sign In</a> 
+              <a href="static/register.html" >Register</a> or <a href="static/login.html" >Sign In</a> 
             </div>
               <button type="submit" class="btn btn-success">Post Ad</button>
           </form>
@@ -356,7 +357,7 @@ height:100%;
         <div id="searchPanel" class="container">
     <div class="panel panel-default">
   <div class="panel-body">
-        <img src="#" alt="funcky pic spot">
+        <img src="img/Conji_Logo_header.png" alt="funky pic spot" style="width:10%;height:150%;">
         <form class="navbar-form navbar-right" style="margin:none; padding:none;">
            
             <div class="btn-group">
@@ -390,7 +391,7 @@ height:100%;
         <div id="fastHotShopSection" class="container" style="background-color:  #D8DBE2; width:100%; margin-top: 12em; padding-top: 10px; padding-bottom: 10px;">
           
    
-        <h1 style="color: black;">POPULAR SHOP</h1>
+        <h1 style="color: black;" class="border">POPULAR SHOP</h1>
             <div id="top3HotShops" class="top3HotShops">
                 <ul class="ulHorizontal">
                     <li><a href=""><img src="img/nike.png" alt="choice1" style="width:200px;"></a></li>
@@ -581,7 +582,7 @@ height:100%;
  
       <footer class="footer">
         <div class="container">
-            <p style="color:white; text-align:center;">COMP353isLit</p>
+            <p style="color:white; text-align:center;">&copy;2017 COMP353isLit. All Rights Reserved.</p>
         </div>
       </footer>
 

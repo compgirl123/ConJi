@@ -345,7 +345,7 @@ height:100%;
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
               <div class="form-group" style="padding: 20px;">
-              <a href="#" >Register</a> or <a href="login/login.php" >Sign In</a> 
+              <a href="#" >Register</a> or <a href="static/login.html" >Sign In</a> 
             </div>
               <button type="submit" class="btn btn-success">Post Ad</button>
           </form>

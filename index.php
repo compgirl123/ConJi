@@ -445,8 +445,7 @@ height:100%;
           <ul class="nav navbar-nav navbar-right">
           <li><a href="static/register.html">Register</a></li>
             <li><a href="static/login.html">Login</a></li>
-          
-            <li><a href="../navbar-fixed-top/">Post Ad</a></li>
+            <li><a href="../navbar-fixed-top/"><button type="submit" class="btn btn-success">Post Ad</button></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

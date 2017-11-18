@@ -113,7 +113,6 @@ img { max-width: 100%; }
 	background: #fff;
 	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
 	text-align: left;
-	border: solid;
 }
 
 .form-top-left {
@@ -139,7 +138,6 @@ img { max-width: 100%; }
 	background: #eee;
 	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
 	text-align: left;
-	border: solid;
 }
 
 .form-bottom form textarea {

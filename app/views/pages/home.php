@@ -15,9 +15,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css" media="all">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css" media="all">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/index.css" media="all">
-
       <style>
-
        
 
       </style>
@@ -160,9 +158,9 @@
         <h1 style="color: black;">POPULAR SHOP</h1>
             <div id="top3HotShops" >
                 <ul class="ulHorizontal">
-                    <li><a href=""><img src="img/nike.png" alt="choice1" style="width:200px;"></a></li>
-                    <li><a href=""><img src="img/nikon-logo.jpg" alt="choice2" style="width:200px;"></a></li>
-                    <li><a href=""><img src="img/deserres-logo.png" alt="choice3" style="width:200px;"></a></li>
+                    <li><a href=""><img src=" <?php echo base_url(); ?>assets/img/nike.png" alt="choice1" style="width:200px;"></a></li>
+                    <li><a href=""><img src=" <?php echo base_url(); ?>assets/img/nikon-logo.jpg" alt="choice1" style="width:200px;"></a></li>
+                    <li><a href=""><img src=" <?php echo base_url(); ?>assets/img/deserres-logo.png" alt="choice1" style="width:200px;"></a><li>
                 </ul>
             </div>
             
@@ -358,5 +356,5 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-  </body>
-</html>
+    </body>
+    </html>

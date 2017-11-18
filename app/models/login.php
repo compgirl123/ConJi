@@ -21,7 +21,7 @@ Class Login extends CI_Model
 		} 
 		 
 		if(!empty($_POST['form-email']) && !empty($_POST['form-password']) ){
-		     $sql = "SELECT * FROM heroku_fa0ae0775c22d35.registered_users
+		     $sql = "SELECT * FROM heroku_b8e3c8b5ba457b6.registered_users
 				     WHERE email="."'".$_POST['form-email']."'".
 				     " AND password="."'".$_POST['form-password']."'";
 				     $result = $conn->query($sql);

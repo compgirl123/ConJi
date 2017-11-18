@@ -81,7 +81,18 @@
               <li><a href="#contact">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Login</a></li>
+            <li> 
+            <?php
+            if(!(isset($_SESSION['name'])))
+            {
+              echo "<a href='pages/login'>Login</a>";
+            }
+            else{
+              echo "<h4>Logged in as ".$_SESSION['name']."</h4>";
+            }
+         
+            ?>
+            </li>
           
             <li><a href="../navbar-fixed-top/">Post Ad</a></li>
           </ul>

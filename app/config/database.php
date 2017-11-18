@@ -70,32 +70,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-
-//Get Heroku ClearDB connection information
-$cleardb_url      = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$cleardb_server   = $cleardb_url["host"];
-$cleardb_username = $cleardb_url["user"];
-$cleardb_password = $cleardb_url["pass"];
-$cleardb_db       = substr($cleardb_url["path"],1);
-
-
-
 $active_group = 'default';
 $query_builder = TRUE;
+// USE CUSTOM FROM COMPUTER
 
 $db['default'] = array(
-	'dsn'	=> '',
-	
-	//'hostname' => 'localhost',
-	//'username' => 'root',
-	//'password' => '',
-	//'database' => 'facebook',
-
-	'hostname' => $cleardb_server,
-	'username' => $cleardb_username,
-	'password' => $cleardb_password,
-	'database' => $cleardb_db,
-
+	'dsn'	=> 'us-cdbr-iron-east-05.cleardb.net',
+	'hostname' => 'us-cdbr-iron-east-05.cleardb.net',
+	'username' => 'ba2fcfca4c14dc',
+	'password' => 'd24f8aa7',
+	'database' => 'heroku_fa0ae0775c22d35',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

@@ -108,15 +108,10 @@
             if((isset($_SESSION['name']))){
               echo "<form action='' method='post'>
                     <!--<button type='submit' name ='logout' value='true'>Logout</button>-->
-                    <a href='' name='logout' value='true'>Logout</a>
+                    <a href='' name='logout' onclick="<?php session_destroy();?>">Logout</a>
                 </form>";
             }
-            if(isset($_POST['logout'])) {
-             session_start();
-              if(session_destroy()){
-                  header("Location: /");
-              }
-            }
+            
             ?>
             </li>
           

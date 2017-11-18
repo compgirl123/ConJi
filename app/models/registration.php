@@ -27,7 +27,7 @@ Class Registration extends CI_Model
 
 		}
 
-		$create_table = "CREATE TABLE `heroku_fa0ae0775c22d35`.`registered_users` 
+		$create_table = "CREATE TABLE `heroku_b8e3c8b5ba457b6`.`registered_users` 
 						(
 						userID BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 						firstName VARCHAR(30),
@@ -58,7 +58,7 @@ Class Registration extends CI_Model
 		} 
 
 		$this->createTable();
-		$user = "INSERT INTO `heroku_fa0ae0775c22d35`.`registered_users`(firstName, lastName, password,email,city,province,country) 
+		$user = "INSERT INTO `heroku_b8e3c8b5ba457b6`.`registered_users`(firstName, lastName, password,email,city,province,country) 
 				 VALUES ("."'".$_POST['form-fname']."','".$_POST['form-lname']."','".$_POST['form-password']."','".
 				 $_POST['form-email']."','".$_POST['form-city']."','".$_POST['form-province']."','".$_POST['form-country']."')";
 

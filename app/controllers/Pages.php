@@ -18,7 +18,7 @@ class Pages extends CI_Controller{
 		$this->load->view('templates/header');
 		$this->load->view('pages/'.'login');
 		$this->load->view('templates/footer');
-		session_start();
+		//session_start();
 
 		$this->load->model("Social");
 		$validateLogin = $this->login->validateUser();

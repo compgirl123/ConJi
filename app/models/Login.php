@@ -7,9 +7,9 @@ Class Login extends CI_Model
 	{
 		// Connection to LocalHost
 		$servername = "us-cdbr-iron-east-05.cleardb.net";
-		$username = "ba2fcfca4c14dc";
-		$password = "d24f8aa7";
-		$dbname = "heroku_fa0ae0775c22d35";
+		$username = "bef91df46d38c7";
+		$password = "736a5a2e";
+		$dbname = "heroku_b8e3c8b5ba457b6";
 
 
 		// Create connection

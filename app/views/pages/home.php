@@ -98,7 +98,7 @@
               echo "<a href='pages/login'>Login</a>";
             }
             else{
-              echo "<h4>Logged in as ".$_SESSION['name']."</h4>";
+              echo "<h6>Logged in as ".$_SESSION['name']."</h6>";
             }
          
             ?>

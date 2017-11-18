@@ -6,6 +6,8 @@ Class Login extends CI_Model
 	function validateUser()
 	{
 		// Connection to LocalHost
+		$db = $this->load->database('default');
+		var_dump($db);
 		$servername = "us-cdbr-iron-east-05.cleardb.net";
 		$username = "bef91df46d38c7";
 		$password = "736a5a2e";

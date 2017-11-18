@@ -15,7 +15,7 @@ class Pages extends CI_Controller{
 	function login()
 	{
 
-		$this->load->view('templates/header');
+		/*$this->load->view('templates/header');
 		$this->load->view('pages/'.'login');
 		$this->load->view('templates/footer');
 		//session_start();
@@ -36,7 +36,7 @@ class Pages extends CI_Controller{
 			$_SESSION['name'] = $userInfo['firstName']." ".$userInfo['lastName'];
 			header('Location: ' . base_url());
 			//$this->load->view('pages/'.'register');
-		}
+		}*/
         //var_dump(empty($validateLogin));
 
 	}

@@ -403,7 +403,7 @@ height:100%;
         <h1 style="color: black;">POPULAR SHOP</h1>
             <div id="top3HotShops" >
                 <ul class="ulHorizontal">
-                    <li><a href=""><img src=" <?php echo base_url(); ?>assets/img/nike.png" alt="choice1" style="width:200px;">da</a></li>
+                    <li><a href=""><img src=" <?php echo base_url(); ?>assets/img/nike.png" alt="choice1" style="width:200px;"></a></li>
                     <li><a href=""><img src="img/nikon-logo.jpg" alt="choice2" style="width:200px;"></a></li>
                     <li><a href=""><img src="img/deserres-logo.png" alt="choice3" style="width:200px;"></a></li>
                 </ul>

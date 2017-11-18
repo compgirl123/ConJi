@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://localhost:8888/conji/';
-$config['base_url'] = 'https://conjigaga.herokuapp.com/';
+$config['base_url'] = 'https://nameless-dawn-40411.herokuapp.com/';
 
 
 /*

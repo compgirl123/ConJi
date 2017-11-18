@@ -107,7 +107,7 @@
               <?php
             if((isset($_SESSION['name']))){
               echo "<form action='' method='post'>
-                    <button type='submit' class='btn btn-success' name ='logout' value='true'>Logout</button>
+                    <button type='submit' name ='logout' value='true'>Logout</button>
                 </form>";
             }
             if(isset($_POST['logout'])) {

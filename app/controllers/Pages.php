@@ -60,7 +60,7 @@ class Pages extends CI_Controller{
 		// 1 means empty
 		if($emptyError == 0)
 		{
-			$this->getNameofUser();
+			//$this->getNameofUser();
 			header('Location: ' . base_url().'/pages/login');
 		}
 

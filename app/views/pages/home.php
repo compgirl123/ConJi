@@ -81,6 +81,16 @@
               <li><a href="#contact">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+          <li> 
+            <?php
+         
+            if(!(isset($_SESSION['name'])))
+            {
+              echo "<a href='pages/register'>Register</a>";
+            }
+            
+            ?>
+            </li>
             <li> 
             <?php
             if(!(isset($_SESSION['name'])))

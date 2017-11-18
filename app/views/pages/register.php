@@ -128,7 +128,7 @@
                                      
 			                        <button type="submit" class="btn">Register</button>
                                      <p>Already got an account? <a href="../pages/login">Sign in</a></p>
-                                      <p><a href="/conji">Return to Main Page </a></p>
+                                      <p><a href="/">Return to Main Page </a></p>
 			                    </form>
 		                    </div>
                         </div>

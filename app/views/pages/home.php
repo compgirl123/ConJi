@@ -141,7 +141,7 @@
           <ul class="nav navbar-nav navbar-right">
           <li>
           <?php
-          session_start();
+          //session_start();
           if(!(isset($_SESSION['name'])))
             {
               echo "<a href='pages/register'>Register</a>";

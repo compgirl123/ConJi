@@ -61,7 +61,10 @@ class Pages extends CI_Controller{
 		if($emptyError == 0)
 		{
 			//$this->getNameofUser();
-			header('Location: ' . base_url().'/pages/login');
+			$this->load->model("registration");
+			$this->registration->createTable();
+			$this->registration->addUser();
+			header('Location: ' . base_url().'pages/login');
 		}
 
 
@@ -70,7 +73,7 @@ class Pages extends CI_Controller{
 		$this->load->view('templates/footer');
 		
 		$this->load->model("registration");
-		$this->registration->createTable();
+		//$this->registration->createTable();
 
 	}
 	

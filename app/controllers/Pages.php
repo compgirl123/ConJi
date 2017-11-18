@@ -20,7 +20,7 @@ class Pages extends CI_Controller{
 		$this->load->view('templates/footer');
 		//session_start();
 
-		$this->load->model("Social");
+		$this->load->model("Login");
 		$validateLogin = $this->login->validateUser();
 
 		if(empty($validateLogin))

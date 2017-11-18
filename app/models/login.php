@@ -1,50 +1,31 @@
-<?php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-Class Login extends CI_Model
-{
+class Social extends CI_Model {
 
-	function validateUser()
-	{
-		// Connection to LocalHost
-		$servername = "us-cdbr-iron-east-05.cleardb.net";
-		$username = "ba2fcfca4c14dc";
-		$password = "d24f8aa7";
-		$dbname = "heroku_fa0ae0775c22d35";
+    function __construct() {
+        $this->tableName = 'users';
+        $this->primaryKey = 'id';
+    }
+    
+    public function checkUser($data = array()){
+        $this->db->select($this->primaryKey);
+        $this->db->from($this->tableName);
+        $this->db->where(array('oauth_provider'=>$data['oauth_provider'],'oauth_uid'=>$data['oauth_uid']));
+        $prevQuery = $this->db->get();
+        $prevCheck = $prevQuery->num_rows();
+        
+        if($prevCheck > 0){
+            $prevResult = $prevQuery->row_array();
+            $data['modified'] = date("Y-m-d H:i:s");
+            $update = $this->db->update($this->tableName,$data,array('id'=>$prevResult['id']));
+            $userID = $prevResult['id'];
+        }else{
+            $data['created'] = date("Y-m-d H:i:s");
+            $data['modified'] = date("Y-m-d H:i:s");
+            $insert = $this->db->insert($this->tableName,$data);
+            $userID = $this->db->insert_id();
+        }
 
-
-		// Create connection
-		$conn = new mysqli($servername, $username, $password,$dbname);
-
-		// Check connection
-		if ($conn->connect_error) {
-		    die("Connection failed: " . $conn->connect_error);
-		} 
-		 
-		if(!empty($_POST['form-email']) && !empty($_POST['form-password']) ){
-		     $sql = "SELECT * FROM heroku_fa0ae0775c22d35.registered_users
-				     WHERE email="."'".$_POST['form-email']."'".
-				     " AND password="."'".$_POST['form-password']."'";
-				     $result = $conn->query($sql);
-				     //echo $sql;
-	    }
-		
-		$res = '';
-
-		if(!empty($result)){
-			if ($result->num_rows > 0) {
-		  while($row = $result->fetch_assoc()) {
-		      $res = $row;
-		  }
-		} else {
-			$res = '';
-		}
-
-		}
-		
-		return $res;
-	}
-
-	
+        return $userID?$userID:FALSE;
+    }
 }
-
-?>

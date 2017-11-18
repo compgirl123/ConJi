@@ -12,12 +12,268 @@
     <title>Static Top Navbar Example for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css" media="all">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css" media="all">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/index.css" media="all">
+    <link href="css/bootstrap.css" rel="stylesheet">
+ <link href="css/custom.css" rel="stylesheet">
       <style>
-       
 
+       
+.bgimg-1 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/clothesCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-2 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/booksCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-3 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/electronicsCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-4 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/instrumentsCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-5 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/tutorCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+ .bgimg-6 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/eventCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+ .bgimg-7 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/photoCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-8 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/trainerCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-9 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/rentCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-10 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/carCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-11 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/apartmentCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+
+.bgimg-12 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/weddingCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-13 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/sBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-14 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/iBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}  
+
+.bgimg-15 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/cBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+} 
+
+.bgimg-16 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/npoBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+} 
+          
+.caption {
+  position: absolute;
+  top: 50%;
+  left:0;
+              right:0;
+  text-align: center;
+  color: #000;
+}
+
+.caption p.border {
+  
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+  font-size: 0.90em;
+  letter-spacing: 10px;
+}
+
+.topStore1{
+              
+}
+          
+/*     */
+.footer{
+    margin-top:10px;
+    padding:10px;
+    
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
+    background-color: #1B1B1E;
+}
       </style>
 
   </head>
@@ -158,9 +414,9 @@
         <h1 style="color: black;">POPULAR SHOP</h1>
             <div id="top3HotShops" >
                 <ul class="ulHorizontal">
-                    <li><a href=""><img src=" <?php echo base_url(); ?>assets/img/nike.png" alt="choice1" style="width:200px;"></a></li>
-                    <li><a href=""><img src=" <?php echo base_url(); ?>assets/img/nikon-logo.jpg" alt="choice1" style="width:200px;"></a></li>
-                    <li><a href=""><img src=" <?php echo base_url(); ?>assets/img/deserres-logo.png" alt="choice1" style="width:200px;"></a><li>
+                    <li><a href=""><img src="img/nike.png" alt="choice1" style="width:200px;"></a></li>
+                    <li><a href=""><img src="img/nikon-logo.jpg" alt="choice2" style="width:200px;"></a></li>
+                    <li><a href=""><img src="img/deserres-logo.png" alt="choice3" style="width:200px;"></a></li>
                 </ul>
             </div>
             
@@ -356,5 +612,5 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-    </body>
-    </html>
+  </body>
+</html>

@@ -111,7 +111,12 @@
                     <a href="pages/logout">Logout</a>
                 </form>";
             }
-            
+            /*if(isset($_POST['logout'])) {
+             session_start();
+              if(session_destroy()){
+                  header("Location: /");
+              }
+            }
             ?>
             </li>
           

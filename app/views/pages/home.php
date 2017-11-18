@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,84 +8,271 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-	
-    <title>Buy stuff from Concordians</title>
+
+    <title>Static Top Navbar Example for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+ <link href="css/custom.css" rel="stylesheet">
+      <style>
+       
+.bgimg-1 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/clothesCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-2 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/booksCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+.bgimg-3 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/electronicsCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+.bgimg-4 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/instrumentsCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-5 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/tutorCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+ .bgimg-6 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/eventCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+ .bgimg-7 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/photoCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+.bgimg-8 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/trainerCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-9 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/rentCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+.bgimg-10 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/carCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-11 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/apartmentCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+.bgimg-12 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/weddingCategoryPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-13 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/sBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}
+          
+.bgimg-14 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/iBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+}  
+.bgimg-15 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/cBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+} 
+.bgimg-16 {
+  position: relative;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(img/npoBusinesses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  width: 100%;
+height:100%;
+} 
+          
+.caption {
+  position: absolute;
+  top: 50%;
+  left:0;
+              right:0;
+  text-align: center;
+  color: #000;
+}
+.caption p.border {
+  
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+  font-size: 0.90em;
+  letter-spacing: 10px;
+}
+.topStore1{
+              
+}
+          
+/*     */
+.footer{
+    margin-top:10px;
+    padding:10px;
+    
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
+    background-color: #1B1B1E;
+}
+      </style>
 
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css" media="all">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css" media="all">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/index.css" media="all">
-	
-	<!--customCss-->
-	
-	
   </head>
 
   <body>
 
-    <!--<nav id="headerNav" class="navbar headerPurple navbar-fixed-top" style="background-color: #5998C5;">
-      <div class="container" >
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
 
-      <a class="navbar-brand" href="#">
-
-		  </a>
-          <p style="padding-top: 2em;">The Student Life Market-</P> 
-        </div>
-          
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-              <div class="form-group" style="padding: 20px;">
-              <a href="static/register.html" >Register</a> or <a href="static/login.html" >Sign In</a> 
-            </div>
-              <button type="submit" class="btn btn-success">Post Ad</button>
-          </form>
-        </div></.navbar-collapse 
-      </div>
-        
-    
-        <div id="searchPanel" class="container">
-    <div class="panel panel-default">
-  <div class="panel-body">
-        <img src="img/Conji_Logo_header.png" alt="funky pic spot" style="width:10%;height:150%;">
-        <form class="navbar-form navbar-right" style="margin:none; padding:none;">
-           
-            <div class="btn-group">
-             
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Location <span class="caret"></span>
-  </button>
-
-  <ul class="dropdown-menu">
-    <li><a href="#">Abitibi-Temiscamingue</a></li>
-    <li><a href="#">Baie-Comeau</a></li>
-      <li><a href="#">Centre-du-Quebec</a></li>
-      <li><a href="#">Centre-du-Quebec</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
-              <div class="form-group">
-    <input type="text" class="form-control" placeholder="Search">
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-          </form>
-  </div>
-</div>      
-
-      </div>
-    </nav>-->
-   
-     <!-- Static navbar -->
+    <!-- Static navbar -->
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
+
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -94,12 +280,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href= "#">
 
-          <img src="<?php echo base_url(); ?>assets/img/Conji_Logo_header.png" alt="funky pic spot" style="width:60%;height:10%;">
-          </a>
+          <a class="navbar-brand" href="#">Project name</a>
+
         </div>
         <div id="navbar" class="navbar-collapse collapse">
+
           <ul class="nav navbar-nav">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bulletin Board<span class="caret"></span></a>
@@ -139,55 +325,17 @@
               <li><a href="#contact">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-          <li>
-          <?php
-          //session_start();
-          if(!(isset($_SESSION['name'])))
-            {
-              echo "<a href='pages/register'>Register</a>";
-            }
-            
-
-          ?>
-          </li>
-            <li>
-            <?php
-            if(!(isset($_SESSION['name'])))
-            {
-              echo "<a href='pages/login'>Login</a>";
-            }
-            else{
-              echo "<h4>Logged in as ".$_SESSION['name']."</h4>";
-            }
-         
-            ?>
-            </li>
-            <li>
-            
-            <a href="/conji">
-
-            <?php
-            if((isset($_SESSION['name']))){
-              echo "<form action='' method='post'>
-                    <button type='submit' class='btn btn-success' name ='logout' value='true'>Logout</button>
-                </form>";
-            }
-            if(isset($_POST['logout'])) {
-             session_start();
-              if(session_destroy()){
-                  header("Location: index.php");
-              }
-            }
-            ?>
-            
-            <li><a href="../navbar-fixed-top/"><button type="submit" class="btn btn-success">Post Ad</button></a></li>
+            <li><a href="../navbar/">Login</a></li>
+          
+            <li><a href="../navbar-fixed-top/">Post Ad</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
 
-     <div class="container">
+
+    <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
@@ -224,36 +372,43 @@
         </div><!--/.nav-collapse -->
 
 
-         <div class="input-group">
+
+    <div class="input-group">
+
       <input type="text" class="form-control" placeholder="Search for...">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button">Go!</button>
       </span>
     </div><!-- /input-group -->
 
+
 </div><!-- /.row -->
+          
+          
+          
+        
+        
+          
       </div>
     </nav>   
         </div>
           
       </div> <!-- /jumbotron -->
-
-
-      
-
-       <div class="container " style="background-color:  #D8DBE2; width:100%;">
+        
+      <div class="container " style="background-color:  #D8DBE2; width:100%;">
           
+
         
         <h1 style="color: black;">POPULAR SHOP</h1>
             <div id="top3HotShops" >
                 <ul class="ulHorizontal">
-                    <li><a href=""><img src=" <?php echo base_url(); ?>assets/img/nike.png" alt="choice1" style="width:200px;"></a></li>
-                    <li><a href=""><img src="<?php echo base_url(); ?>assets/img/nikon-logo.jpg" alt="choice2" style="width:200px;"></a></li>
-                    <li><a href=""><img src="<?php echo base_url(); ?>assets/img/deserres-logo.png" alt="choice3" style="width:200px;"></a></li>
+                    <li><a href=""><img src="img/nike.png" alt="choice1" style="width:200px;"></a></li>
+                    <li><a href=""><img src="img/nikon-logo.jpg" alt="choice2" style="width:200px;"></a></li>
+                    <li><a href=""><img src="img/deserres-logo.png" alt="choice3" style="width:200px;"></a></li>
                 </ul>
             </div>
             
-    
+     
        
       </div>
       
@@ -263,6 +418,14 @@
               <div id="categoryElement" class="col-md-6" style="padding:5; margin:0; background-color: #A9BCD0;">
                 <h1 class="categoryTitle"><a href="#">Buy and Sell</a></h1>
                   
+                  <!--
+                  <ul>
+                    <li><a href="#">Clothing</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Musical Instruments</a></li>
+                  </ul>
+                    -->
                   
                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="clothing">
                     <div  class="bgimg-1">
@@ -427,28 +590,15 @@
         
 
     </div> <!-- /container -->
-      
- 
-      <footer class="footer">
-        <div class="container">
-            <p style="color:white; text-align:center;">&copy;2017 COMP353isLit. All Rights Reserved.</p>
-        </div>
-      </footer>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-       <!--customJavaScript-->    
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="<?php echo base_url(); ?>assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
-</html>
-
-
-        
-  
-
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+    </html>

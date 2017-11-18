@@ -7,7 +7,7 @@ Class Login extends CI_Model
 	{
 		// Connection to LocalHost
 		$db = $this->load->database('default');
-		var_dump($db['hostname']);
+		
 		$servername = "us-cdbr-iron-east-05.cleardb.net";
 		$username = "bef91df46d38c7";
 		$password = "736a5a2e";

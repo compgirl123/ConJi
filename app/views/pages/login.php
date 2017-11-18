@@ -77,7 +77,7 @@
 			                        <button type="submit" class="btn">Sign in!</button>
 			                    </form>
                                 <p>Don't have an account?<a href="../pages/register"> Register</a></p>
-                                 <p><a href="/conji">Return to Main Page </a></p>
+                                 <p><a href="/">Return to Main Page </a></p>
 		                    </div>
                         </div>
                     </div>

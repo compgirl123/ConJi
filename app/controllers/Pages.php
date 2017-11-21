@@ -76,6 +76,7 @@ class Pages extends CI_Controller{
 		//$this->registration->createTable();
 
 	}
+
 	function postad()
 	{
 		$this->load->view('templates/header');
@@ -83,6 +84,7 @@ class Pages extends CI_Controller{
 		$this->load->view('templates/footer');
 
 	}
+
 
 
 	

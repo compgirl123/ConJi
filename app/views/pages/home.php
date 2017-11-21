@@ -119,7 +119,9 @@
             ?>
             </li>
           
-            <li><a href="../navbar-fixed-top/">Post Ad</a></li>
+            <li>
+            <a href="pages/postad">Post Ad</a>
+            </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

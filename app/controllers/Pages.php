@@ -76,7 +76,13 @@ class Pages extends CI_Controller{
 		//$this->registration->createTable();
 
 	}
-	
+	function postad()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('pages/'.'postad');
+		$this->load->view('templates/footer');
+
+	}
 
 
 	

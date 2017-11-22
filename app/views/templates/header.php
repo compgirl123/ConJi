@@ -92,28 +92,14 @@
                 echo "<a href='pages/login'>Login</a>";
               }
               else{
-                echo "<h6>Logged in as ".$_SESSION['name']."</h6>";
+                //echo "<h6>Logged in as ".$_SESSION['name']."</h6>";
               }
 
             }
          
             ?>
             </li>
-            <li>
-            <?php
-            if((isset($_SESSION['name']))){
-              echo "<form action='' method='post'>
-                    <button type='submit' name ='logout' value='true' class='btn btn-success'>Logout</button>
-                </form>";
-            }
-            if(isset($_POST['logout'])) {
-             session_start();
-              if(session_destroy()){
-                  header("Location: /");
-              }
-            }
-            ?>
-            </li>
+            
 
             <li>
             <?php
@@ -136,6 +122,22 @@
             }
             ?>
             
+            </li>
+
+            <li>
+            <?php
+            if((isset($_SESSION['name']))){
+              echo "<form action='' method='post'>
+                    <button type='submit' name ='logout' value='true' class='btn btn-success'>Logout</button>
+                </form>";
+            }
+            if(isset($_POST['logout'])) {
+             session_start();
+              if(session_destroy()){
+                  header("Location: /");
+              }
+            }
+            ?>
             </li>
 
           </ul>

@@ -280,6 +280,7 @@ height:100%;
 
   <body>
 
+      
     <!-- Static navbar -->
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
@@ -346,89 +347,227 @@ height:100%;
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="panel">
-        <h3>Search Options</h3>
-          <nav class="navbar  ">
-      <div class="container">
-        <div class="row">
+          <nav class="navbar">
+              <div class="container">
+                <div class="row">
+                    <!--
+                   <div id="navbar" class=" navbar-nav" >
+                      <div class="btn-group">
+                  <button type="button" class="btn btn-danger">Location</button>
+                  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                      <li class="dropdown-header">Montreal</li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                     <li class="dropdown-header">Montreal</li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                     <li class="dropdown-header">Montreal</li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </div>
+                        </div> -->
+                    <!--/.nav-collapse -->
+                       
 
-   <div id="navbar" class=" navbar-nav" >
-      <div class="btn-group">
-  <button type="button" class="btn btn-danger">Location</button>
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="caret"></span>
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-      <li class="dropdown-header">Montreal</li>
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-     <li class="dropdown-header">Montreal</li>
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-      <li role="separator" class="divider"></li>
-     <li class="dropdown-header">Montreal</li>
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-  </ul>
-</div>
-        </div><!--/.nav-collapse -->
-      
-
-
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Search for...">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
-      </span>
-    </div><!-- /input-group -->
-
-</div><!-- /.row -->
-          
-          
-          
-        
-        
-          
-      </div>
-    </nav>   
+                    <!--
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search for...">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                      </span>
+                    </div>
+                    
+                 
+                </div> -->
+                  <!-- /.row -->
+                    
+                    <h1>Hello Username!</h1>
+                    
+                    <button style="padding: 10px;" id="btnPremium" class="btnPremium">Go Premium!</button>
+              </div>
+            </nav>   
         </div>
           
-      </div> <!-- /jumbotron -->
+      </div> 
+          </div><!-- /jumbotron -->
         
-     
+     <div class="container">
+       <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#activeTab">Active Ads</a></li>
+    <li><a data-toggle="tab" href="#expTab">Expired Ads</a></li>
+    <li><a data-toggle="tab" href="#myStore">My Store</a></li>
+    
+  </ul>
+
+  <div class="tab-content">
+    <div id="activeTab" class="tab-pane fade in active">
+      <h3>Active Ads</h3>
       
-      <div class="container" style="width:100%;">
+         <div class="container">
           <div class="row" >
               <div class="panel">
-              <div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="img/x.jpg" alt="x-mark">
-    </a>
-  </div>
-                
-  <div class="col-xs-6 col-md-9">
-      <div class="container">
-        <h1>Title For Post</h1> 
-          <span>Date</span>
-      
-      </div>
-      <br>
-        <div class="container" style="display:block;">
-              <p>blah blah blah. blah blah blah. blah blah blah. blah blah blah.</p>
-      
-        </div>
-    
-      <br>
-      <button type="button" class="btn btn-default navbar-right">Details</button>
-  </div>
-</div>
+                  <div class="row">
+                      <div class="col-md-3">
+                        <a href="#" class="thumbnail">
+                          <img src="img/x.jpg" alt="x-mark">
+                        </a>
+                      </div>
+
+                      <div class="col-md-9">
+                          
+                            <h1>Title For Active Ad 1</h1> 
+                              <span>Date</span>
+                         
+                          <br>
+                            <div>
+                                  <p maxlength="100" name="description"  id="description" style="text-overflow: ellipsis;
+ word-wrap:break-word; padding:5px;">blah blah blah. blah blah blah. blah blah blah blah blah. blah blah blah. blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah.blah blah blah. blah blah blah. blah blah blah. blah blah blah.</p>
+                            </div>
+                          <br>
+                          <button type="button" class="btn btn-default" > <a href="#">View</a></button>
+                          <button type="button" class="btn btn-default" > <a href="#">Edit</a></button>
+                          <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
+                      </div>
+                    </div>
+                  
+                  <div class="row">
+                      <div class="col-md-3">
+                        <a href="#" class="thumbnail">
+                          <img src="img/x.jpg" alt="x-mark">
+                        </a>
+                      </div>
+
+                      <div class="col-md-9">
+                          
+                            <h1>Title For Active Ad 2</h1> 
+                              <span>Date</span>
+                         
+                          <br>
+                            <div>
+                                  <p maxlength="100" name="description"  id="description" style="text-overflow: ellipsis;
+ word-wrap:break-word; padding:5px;">blah blah blah. blah blah blah. blah blah blah blah blah. blah blah blah. blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah.blah blah blah. blah blah blah. blah blah blah. blah blah blah.</p>
+                            </div>
+                          <br>
+                          <button type="button" class="btn btn-default" > <a href="#">View</a></button>
+                          <button type="button" class="btn btn-default" > <a href="#">Edit</a></button>
+                          <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
+                      </div>
+                    </div>
+                  
+                  <div class="row">
+                      <div class="col-md-3">
+                        <a href="#" class="thumbnail">
+                          <img src="img/x.jpg" alt="x-mark">
+                        </a>
+                      </div>
+
+                      <div class="col-md-9">
+                          
+                            <h1>Title For Active Ad 3</h1> 
+                              <span>Date</span>
+                         
+                          <br>
+                            <div>
+                                  <p maxlength="100" name="description"  id="description" style="text-overflow: ellipsis;
+ word-wrap:break-word; padding:5px;">blah blah blah. blah blah blah. blah blah blah blah blah. blah blah blah. blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah.blah blah blah. blah blah blah. blah blah blah. blah blah blah.</p>
+                            </div>
+                          <br>
+                          <button type="button" class="btn btn-default" > <a href="#">View</a></button>
+                          <button type="button" class="btn btn-default" > <a href="#">Edit</a></button>
+                          <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
+                      </div>
+                    </div>
               </div>
           </div> 
+        </div>
+      </div>
+      
+      <!-- expired mentu -->
+    <div id="expTab" class="tab-pane fade">
+      <h3>Expired Ads</h3>
+       <div class="container">
+          <div class="row" >
+              <div class="panel">
+                  <div class="row">
+                      <div class="row">
+                      <div class="col-md-3">
+                        <a href="#" class="thumbnail">
+                          <img src="img/x.jpg" alt="x-mark">
+                        </a>
+                      </div>
+
+                      <div class="col-md-9">
+                          
+                            <h1>Title For Expired Ad 1</h1> 
+                              <span>Date</span>
+                         
+                          <br>
+                            <div>
+                                  <p maxlength="100" name="description"  id="description" style="text-overflow: ellipsis;
+ word-wrap:break-word; padding:5px;">Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy
+                                Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huyHuy huy huy
+                                 Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy</p>
+                            </div>
+                          <br>
+                          <button type="button" class="btn btn-default" > <a href="#">View</a></button>
+                          <button type="button" class="btn btn-default" > <a href="#">Edit</a></button>
+                          <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
+                      </div>
+                    </div>
+                 <hr>
+                  <div class="row">
+                      <div class="col-md-3">
+                        <a href="#" class="thumbnail">
+                          <img src="img/x.jpg" alt="x-mark">
+                        </a>
+                      </div>
+
+                      <div class="col-md-9">
+                          
+                            <h1>Title For Expired Ad 2</h1> 
+                              <span>Date</span>
+                         
+                          <br>
+                            <div>
+                                  <p maxlength="100" name="description"  id="description" style="text-overflow: ellipsis;
+ word-wrap:break-word; padding:5px;">Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy
+                                Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huyHuy huy huy
+                                 Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy</p>
+                            </div>
+                          <br>
+                          <button type="button" class="btn btn-default" > <a href="#">View</a></button>
+                          <button type="button" class="btn btn-default" > <a href="#">Edit</a></button>
+                          <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
+                      </div>
+                    </div>
+                 <hr>    
+                 
+              </div>
+          </div> 
+        </div>
+    </div>
+      </div>
+      <!-- store tab --->
+    <div id="myStore" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    
+  </div>
+</div>
+     
+      
+     
           
           
     </div> <!-- /container -->

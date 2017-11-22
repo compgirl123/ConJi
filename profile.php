@@ -439,7 +439,7 @@ height:100%;
                           <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
                       </div>
                     </div>
-                  
+                  <hr>
                   <div class="row">
                       <div class="col-md-3">
                         <a href="#" class="thumbnail">
@@ -463,7 +463,7 @@ height:100%;
                           <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
                       </div>
                     </div>
-                  
+                  <hr>
                   <div class="row">
                       <div class="col-md-3">
                         <a href="#" class="thumbnail">

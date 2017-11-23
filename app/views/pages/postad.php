@@ -386,7 +386,7 @@ height:100%;
 	  
       <div class="jumbotron">
         <div class="panel">
-        <h3>New Ad Post</h3>
+        <h3>New Ad Post HIII</h3>
           <nav class="navbar  ">
 		  <div class="container">
 			<div class="row">

@@ -18,251 +18,10 @@
       <style>
 
        
-.bgimg-1 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/clothesCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-          
-.bgimg-2 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/booksCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-
-.bgimg-3 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/electronicsCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-
-.bgimg-4 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/instrumentsCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-          
-.bgimg-5 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/tutorCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-
- .bgimg-6 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/eventCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-
- .bgimg-7 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/photoCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-
-.bgimg-8 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/trainerCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-          
-.bgimg-9 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/rentCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-
-.bgimg-10 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/carCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-          
-.bgimg-11 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/apartmentCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-
-.bgimg-12 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/weddingCategoryPic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-          
-.bgimg-13 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/sBusinesses.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}
-          
-.bgimg-14 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/iBusinesses.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-}  
-
-.bgimg-15 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/cBusinesses.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-} 
-
-.bgimg-16 {
-  position: relative;
-  background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url(img/npoBusinesses.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-  width: 100%;
-height:100%;
-} 
-          
-.caption {
-  position: absolute;
-  top: 50%;
-  left:0;
-              right:0;
-  text-align: center;
-  color: #000;
-}
-
-.caption p.border {
-  
-  text-align: center;
-  color: #fff;
-  padding: 5px;
-  font-size: 0.90em;
-  letter-spacing: 10px;
-}
-
-.topStore1{
+   .sellOptionsContainer{
+              border: 2px solid black;
               
-}
+          }
           
 /*     */
 .footer{
@@ -289,6 +48,10 @@ height:100%;
             document.getElementById("adImg").src = oFREvent.target.result;
         };
     };
+          /*******************/
+          
+         
+          
       </script>
   </head>
 
@@ -362,30 +125,13 @@ height:100%;
 
 
     <div class="container">
-
-	<!--
-	1.	Contact Information - Email or Phone number.
-
-2.	Price - in CAD.
-
-3.	Ad type: Category Selected.
-
-4.	For Sale by: Owner/Business.
-5.	Availability: Online/Store.
-
-6.	Title and Description.
-7.	Address.
-
-8.	Images.
-
-	-->
       <!-- Main component for header -->
 	  <form runat="server" id="adForm" method="post" action="">
 	  
       <div class="jumbotron">
-        <div class="panel">
+        <div class="panel" style="padding:10px;">
         <h3>New Ad Post</h3>
-          <nav class="navbar  ">
+          
 		  <div class="container">
 			<div class="row">
 				<div class="col-md-4">
@@ -394,65 +140,135 @@ height:100%;
 				</div>
 				<div class="col-md-8">
 				      <h3>Address</h3>
-                        <input type="text" id="homeAddress" class="homeAddress" name="homeAddress" style="width:100%;">
+                        <input type="text" id="homeAddress" class="homeAddress" name="homeAddress" style="width:100%;" required>
                      <h3>Contact</h3>
                     <label>E-mail </label>
-                        <input type="text" id="email" class="email" name="email" style="width:100%;">
+                        <input type="text" id="email" class="email" name="email" style="width:100%;" required>
                     <label>Phone </label>
-                        <input type="text" id="phone" class="phone" name="phone" style="width:100%;">
+                        <input type="text" id="phone" class="phone" name="phone" style="width:100%;" required>
 			     </div>
 			  
               </div><!--- /row-->
               <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                       <h3>Ad Type</h3>
-                      <label>Buy</label><input type="radio" id="radioAdType" name="radioAdType" class="radioAdType" value="Buy">
-                     <label>Sell</label><input type="radio" id="radioAdType" name="radioAdType" class="radioAdType" value="Sell">
+                      <label>Buy</label><input type="radio" id="radioAdType" name="radioAdType" class="radioAdType" value="Buy" required>
+                     <label>Sell</label><input type="radio" id="radioAdType" name="radioAdType" class="radioAdType" value="Sell" required>
                 </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                       <h3>For Sale By</h3>
-                      <label>Owner</label><input type="radio" id="radioSaleChoice" name="radioSaleChoice" class="radioSaleChoice" value="Owner">
-                     <label>Business</label><input type="radio" id="radioSaleChoice" name="radioSaleChoice" class="radioSaleChoice" value="Business">
+                      <label>Owner</label><input type="radio" id="radioSaleChoice" name="radioSaleChoice" class="radioSaleChoice" value="Owner" required>
+                     <label>Business</label><input type="radio" id="radioSaleChoice" name="radioSaleChoice" class="radioSaleChoice" value="Business" required>
                 </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                       <h3>Price</h3>
-                      <label>Free</label><input type="radio" id="radioPriceChoice" name="radioPriceChoice" class="radioPriceChoice" value="0">
-                       <label>Price</label><input type="radio" id="radioPriceChoice" name="radioPriceChoice" class="radioPriceChoice">
-                     <span><input type="number" id="inputPriceChoice" name="inputPriceChoice" class="inputPriceChoice"></span> 
+                      <input type="number" id="inputPriceChoice" name="inputPriceChoice" class="inputPriceChoice" min="0" required></span> 
+                </div>
+                  <div class="col-md-3">
+                      <h3>Quantity</h3>
+                      <input type="number" id="inputQuantityNumber" name="inputQuantityNumber" class="inputQuantityNumber" min="0" required></span>
                 </div>
               </div><!-- /row -->
+              
+               <div class="row">
+               <div class="col-md-12">
+                        <h3>Ad Location</h3>
+                         <div class="form-group">
+                      <label for="sel1">Select list</label>
+                      <select class="form-control" id="sel1" name="locationChoice" id="locationChoice" required>
+                          <option value="#">-----</option>
+                           <option disabled>--Quebec--</option>
+                        <option value="Montreal">Montreal</option>
+                        <option value="Laval">Laval</option>
+                        <option value="Kirkland">Kirkland</option>
+                        <option value="Gatineau">Gatineau</option>
+                          <option disabled>--Ontario--</option>
+                        <option value="Belleville">Belleville</option>
+                        <option value="Toronto">Toronto</option>
+                        <option value="Waterloo">Waterloo</option>
+                        <option value="North Bay">North Bay</option>
+                           
+                      </select>
+                    </div>
+                  </div>
+              </div><!-- /row -->
+              
+               <div class="row">
+               <div class="col-md-12">
+                        <h3>Ad Category</h3>
+                        
+                   <div class="form-group">
+                      <label for="sel1">Select list</label>
+                      <select class="form-control" id="adCategory" name="adCategory" required>
+                          <option value="#">-----</option>
+                           <option disabled>--Buy/Sell--</option>
+                        <option value="Clothing">Clothing</option>
+                        <option value="Books">Books</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Musical Instruments">Musical Instruments</option>
+                          <option disabled>--Services--</option>
+                        <option value="Tutors">Tutors</option>
+                        <option value="Event Planners">Event Planners</option>
+                        <option value="Photographers">Photographers</option>
+                        <option value="Personal Trainers">Personal Trainers</option>
+                            <option disabled>--Rent--</option>
+                        <option value="rElectronics">Electronics</option>
+                        <option value="rCar">Car</option>
+                        <option value="rApartments">Apartments</option>
+                        <option value="rWedding-Dresses">Wedding-Dresses</option>
+                           <option disabled>Rent</option>
+                        <option value="rElectronics">--Electronics--</option>
+                        <option value="rCar">Car</option>
+                        <option value="rApartments">Apartments</option>
+                        <option value="rWedding-Dresses">Wedding-Dresses</option>
+                            <option disabled>--Employment--</option>
+                        <option value="Industrial">Industrial</option>
+                        <option value="Office">Office</option>
+                        <option value="Non-Profit">Non-Profit</option>
+                        <option value="Part-Time">Part-Time</option>
+                      </select>
+                    </div>
+                   
+                    
+                  </div>
+              </div><!-- /row -->
+              
               <div class="row">
                <div class="col-md-12">
                         <h3>Title</h3>
-                        <input type="text" id="adTitle" class="adTitle" name="adTitle" style="width:100%;">
-                      
-                        
-                  
-                  
+                        <input type="text" id="adTitle" class="adTitle" name="adTitle" style="width:100%;" required>
                         <h3>Description</h3>
-                        <blockquote contenteditable="true" name="textDesc" id="textDesc" class="textDesc" style=" height: 200px; border: 1px solid black; padding: 5px;">
+                        <blockquote contenteditable="true" name="textDesc" id="textDesc" class="textDesc" style=" height: 200px; border: 1px solid black; padding: 5px;" required>
                         
                         </blockquote>
                   </div>
               </div><!-- /row -->
-		  </div><!-- /container -->
-        
-              <!-- this will only show if "sell" option is picked -->
-              <div class="container" id="sellOptionsContainer" name="sellOptionsContainer" class="sellOptionsContainer">
-                  <h2>Sell Options</h2>
-                  <div class="row">
-                      <div class="col-md-12">
-                        <h3>Need a store?</h3>
-                           <label>Yes</label><input type="radio" id="radioStoreChoice" name="radioStoreChoice" class="radioStoreChoice" value="Y">
-                           <label>No</label><input type="radio" id="radioStoreChoice" name="radioStoreChoice" class="radioStoreChoice" value="N">
+          
+		  </div><!-- /container -->  
+		</div><!-- /panel -->
+	</div><!-- /jumbotron -->
+	
+     <!-- this will only show if "sell" option is picked -->
+          
+          <!-- this will only show if "sell" option is picked -->
+	 <div class="jumbotron">
+        <div class="panel" style="padding:10px;">
+   <h3>Need a store?</h3>
+          
+		  <div class="container">
+			 <div >
+                      
+                           <label>Yes</label><input type="radio" id="radioStoreChoice" name="radioStoreChoice" class="radioStoreChoice" value="Y" >
+                           <label>No</label><input type="radio" id="radioStoreChoice" name="radioStoreChoice" class="radioStoreChoice" value="N" >
                       </div>
                       <!-- this only shows up if the user selects "yes" for store -->
-                       <div class="col-md-12" id="storeLocationRow" name="storeLocationRow" class="storeLocationRow">
+                       <div  id="storeLocationRow" name="storeLocationRow" class="storeLocationRow">
                         <h3>Physical Store</h3>
                            <p>***A base price of $15/hr + SL rate from $15 is added to the total rent of the store***</p>
                            
                            <label>Hours for Store Rental</label><input type="number" id="radioYesStoreChoice" name="radioYesStoreChoice" class="radioYesStoreChoice" min="1" max="8">
-                          <table class="table table-hover" class="storeHoursAndRates" id="storeHoursAndRates" name="storeHoursAndRates">
+                           <div class="container">
+                               <table class="table table-hover storeHoursAndRates" id="storeHoursAndRates" name="storeHoursAndRates">
                               <tbody>
                                 <tr>
                                     <th>Strategic Location (SL)</th>
@@ -460,8 +276,7 @@ height:100%;
                                     <th>Choice</th>
                                 </tr>
                                 <tr>
-                                    <td>SL-1 has 400 customers per hour
-(CpH) visiting the store</td>
+                                    <td>SL-1 has 400 customers per hour (CpH) visiting the store</td>
                                     <td>20</td>
                                     <td><input type="radio" value="1.20" name="sl-Choice" id="sl-Choice" class="sl-Choice"></td>
                                 </tr>
@@ -472,67 +287,68 @@ height:100%;
                                     <td><input type="radio" value="1.15" name="sl-Choice" id="sl-Choice" class="sl-Choice"></td>
                                 </tr>
                                   <tr>
-                                    <td>SL-3 has 200 customers per hour
-(CpH) visiting the store</td>
+                                    <td>SL-3 has 200 customers per hour (CpH) visiting the store</td>
                                     <td>10</td>
                                     <td><input type="radio" value="1.1" name="sl-Choice" id="sl-Choice" class="sl-Choice"></td>
                                 </tr>
                                   <tr>
-                                    <td>SL-4 has 100 customers per hour
-(CpH) visiting the store</td>
+                                    <td>SL-4 has 100 customers per hour (CpH) visiting the store</td>
                                     <td>5</td>
                                     <td><input type="radio" value="1.05" name="sl-Choice" id="sl-Choice" class="sl-Choice"></td>
                                 </tr>
                                  
                               </tbody>
                           </table>
+                               </div>
+
                       </div>
-                  </div>
-              </div><!-- /store container -->
-              
+		  </div><!-- /container -->  
 		</div><!-- /panel -->
-	</div><!-- /jumbotron -->
-	
-	<div class="container">
-        
-              
-              <div class="row">
-                <div class="col-md-12">
-                    <h3>Membership Plan</h3>
+	</div><!-- /jumbotron -->      
+          
+     <div class="jumbotron">
+        <div class="panel" style="padding:10px;">
+     <h3>Promotion Packages</h3>
+          
+		  <div class="container">
+			<div class="row">
+                 <div >
+               
                     <ul style="list-style-type:none;">
-                         <li>Normal Plan: Any Ad is visible for 7 days.<input type="radio" id="radioNormalPlanChoice" name="radioNormalPlanChoice" class="radioNormalPlanChoice"></li>
-                         <li>Silver Plan: Any Ad is visible for 14 days.<input type="radio" id="radioSilverPlanChoice" name="radioSilverPlanChoice" class="radioSilverPlanChoice"></li>
-                         <li>Silver Plan: Any Ad is visible for 14 days.<input type="radio" id="radioPremiumPlanChoice" name="radioPremiumPlanChoice" class="radioPremiumPlanChoice"></li>
-                    </ul>
-                </div>
-                  <div class="col-md-12">
-                    <h3>Promotion Packages</h3>
-                    <ul style="list-style-type:none;">
-                         <li>7 days promotion- $10 <input type="radio" id="radio7dayPromo" name="radio7dayPromo" class="radio7dayPromo"></li>
-                          <li>30 days promotion- $50 <input type="radio" id="radio30dayPromo" name="radio30dayPromo" class="radio30dayPromo"></li>
-                         <li>60 days promotion- $90 <input type="radio" id="radio60dayPromo" name="radio60dayPromo" class="radio60dayPromo"></li>
+                         <li>7 days promotion- $10 <input type="radio" id="radioPromoPackage" name="radioPromoPackage" class="radioPromoPackage" value="7"></li>
+                          <li>30 days promotion- $50 <input type="radio" id="radioPromoPackage" name="radioPromoPackage" class="radioPromoPackage" value="30"></li>
+                         <li>60 days promotion- $90 <input type="radio" id="radioPromoPackage" name="radioPromoPackage" class="radioPromoPackage" value="60"></li>
                     </ul>
                 </div>
         </div>
                   <br>
-                  <div class="col-md-12">
+                  <div >
                     <table class="table table-hover" id="totalAdCostDisplay">
                         <td>Total</td>
                         <td></td>
                         <td name="totalPrice" >$0.00 </td>
                     </table>
                   </div>
-              </div>
-          <div class="col-md-6">
-        <input type="button" id="clear" value=
-"RESET" onclick="resetForm();">
-     </div>
-    <div class="col-md-6">
-        <input  id="clear" type="submit" value=
-"NEXT">
-     </div> 
-	</div>
-         
+		  </div><!-- /container -->  
+		</div><!-- /panel -->
+	</div><!-- /jumbotron -->          
+              
+          
+        
+
+          
+		  <div class="container" style="width:100%; margin:0; text-align:center;">
+			  <div class="col-md-6">
+                    <input type="button" style="width:100%;"id="clear" value="RESET" onclick="resetForm();">
+                 </div>
+                <div class="col-md-6">
+                    <input  id="clear" style="width:100%;" type="submit" value="NEXT">
+                </div>  
+		  </div><!-- /container -->  
+	      
+ 
+        
+	 
 	</form>
 </div>	 
       

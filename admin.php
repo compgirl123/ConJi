@@ -567,17 +567,7 @@ height:100%;
 </div>
      
       
-     <!--this only appears when you click on "Go Premium" -->
-        <!--
- <div class="col-md-12">
-                    <h3>Membership Plan</h3>
-                    <ul style="list-style-type:none;">
-                         <li>Normal Plan: Any Ad is visible for 7 days.<input type="radio" id="radioNormalPlanChoice" name="radioNormalPlanChoice" class="radioNormalPlanChoice"></li>
-                         <li>Silver Plan: Any Ad is visible for 14 days.<input type="radio" id="radioSilverPlanChoice" name="radioSilverPlanChoice" class="radioSilverPlanChoice"></li>
-                         <li>Silver Plan: Any Ad is visible for 14 days.<input type="radio" id="radioPremiumPlanChoice" name="radioPremiumPlanChoice" class="radioPremiumPlanChoice"></li>
-                    </ul>
-                </div>
--->
+     
           
           
     </div> <!-- /container -->

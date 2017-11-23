@@ -334,7 +334,7 @@ height:100%;
           <ul class="nav navbar-nav navbar-right">
             <li><a href="../navbar/">Login</a></li>
           
-            <li><a href="../navbar-fixed-top/">Post Ad</a></li>
+            <li><a href="newAd/">Post Ad</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -347,56 +347,48 @@ height:100%;
       <div class="jumbotron">
         <div class="panel">
         <h3>Search Options</h3>
-          <nav class="navbar  ">
+         
+        <form get="post" action="">
       <div class="container">
         <div class="row">
 
-  <div id="navbar" class=" navbar-nav" >
-      <div class="btn-group">
-  <button type="button" class="btn btn-danger">Location</button>
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="caret"></span>
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-      <li class="dropdown-header">Montreal</li>
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-     <li class="dropdown-header">Montreal</li>
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-      <li role="separator" class="divider"></li>
-     <li class="dropdown-header">Montreal</li>
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-  </ul>
+
+ 
+ <div class="form-group">
+                      <label for="sel1">Location</label>
+                      <select class="form-control" id="sel1" name="locationChoice" id="locationChoice" required>
+                          <option value="#">-----</option>
+                           <option disabled>--Quebec--</option>
+                        <option value="Montreal">Montreal</option>
+                        <option value="Laval">Laval</option>
+                        <option value="Kirkland">Kirkland</option>
+                        <option value="Gatineau">Gatineau</option>
+                          <option disabled>--Ontario--</option>
+                        <option value="Belleville">Belleville</option>
+                        <option value="Toronto">Toronto</option>
+                        <option value="Waterloo">Waterloo</option>
+                        <option value="North Bay">North Bay</option>
+                           
+                      </select>
+                    </div>
 </div>
-        </div><!--/.nav-collapse -->
+        </div><!--/.container-group -->
 
 
-    <div class="input-group">
+    <div class="input-group" style="padding-top:5px;">
       <input type="text" class="form-control" placeholder="Search for...">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button">Go!</button>
       </span>
     </div><!-- /input-group -->
 
-</div><!-- /.row -->
+            </form>
+</div><!-- /.panel -->
           
+
+        </div><!-- /jumbotron -->
           
-          
-        
-        
-          
-      </div>
-    </nav>   
-        </div>
-          
-      </div> <!-- /jumbotron -->
+      </div> <!--container-->
         
       <div class="container " style="background-color:  #D8DBE2; width:100%;">
           

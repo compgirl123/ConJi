@@ -1,9 +1,9 @@
 <html>
-	<head>
-		<title>ConJi</title>
-	</head>
-	<body>
-		<nav class="navbar navbar-default navbar-static-top">
+  <head>
+    <title>ConJi</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
 
         <div class="navbar-header">
@@ -83,7 +83,7 @@
                 echo "<a href='login'>Login</a>";
               }
               else{
-                echo "<h6>Logged in as ".$_SESSION['name']."</h6>";
+                echo "<a href=''>"."Welcome ".$_SESSION['name']."</a>";
               }
             }
             else
@@ -92,7 +92,7 @@
                 echo "<a href='pages/login'>Login</a>";
               }
               else{
-                //echo "<h6>Logged in as ".$_SESSION['name']."</h6>";
+                echo "<a href=''>"."Welcome ".$_SESSION['name']."</a>";
               }
 
             }
@@ -100,30 +100,6 @@
             ?>
             </li>
             
-
-            <li>
-            <?php
-            if (strpos($href, 'pages') !== false) {
-              if(!(isset($_SESSION['name']))){
-                echo "<a href='postad'>Post Ad</a>";
-              }
-              else{
-                echo "<h6>Logged in as ".$_SESSION['name']."</h6>";
-              }
-            }
-            else
-            {
-              if(!(isset($_SESSION['name']))){
-                echo "<a href='pages/postad'>Post Ad</a>";
-              }
-              else{
-                echo "<h6>Logged in as ".$_SESSION['name']."</h6>";
-              }
-            }
-            ?>
-            
-            </li>
-
             <li>
             <?php
             if((isset($_SESSION['name']))){
@@ -140,9 +116,34 @@
             ?>
             </li>
 
+            <li>
+            <?php
+            if (strpos($href, 'pages') !== false) {
+              if(!(isset($_SESSION['name']))){
+                echo "<a href='postad'>Post Ad</a>";
+              }
+              else{
+              echo "<a href='postad'>Post Ad</a>";
+              }
+            }
+            else
+            {
+              if(!(isset($_SESSION['name']))){
+                echo "<a href='pages/postad'>Post Ad</a>";
+              }
+              else{
+               echo "<a href='pages/postad'>Post Ad</a>";
+              }
+            }
+            ?>
+            
+            </li>
+
+            
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-	</body>
+  </body>
 </html>

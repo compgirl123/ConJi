@@ -318,7 +318,7 @@ height:100%;
                 </div> -->
                   <!-- /.row -->
                     
-                    <h1>Hello <?php $_SESSION['name'] ?>!</h1>
+                    <h1>Hello <?php echo $_SESSION['name'] ?>!</h1>
                     
                     <button style="padding: 10px;" id="btnPremium" class="btnPremium">Go Premium!</button>
               </div>

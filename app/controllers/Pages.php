@@ -85,6 +85,14 @@ class Pages extends CI_Controller{
 
 	}
 
+	function profile()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('pages/'.'profile');
+		$this->load->view('templates/footer');
+
+	}
+
 
 
 	

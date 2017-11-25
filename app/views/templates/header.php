@@ -75,10 +75,7 @@
             </li>
             <li> 
             <?php
-            
-            if((isset($_SESSION['name']))){
-              $welcome = "<a href='register'>"."Welcome ".$_SESSION['name']."</a>";
-            }
+           
             
 
             if (strpos($href, 'pages') !== false) {
@@ -86,7 +83,7 @@
                 echo "<a href='login'>Login</a>";
               }
               else{
-                echo $welcome;
+                echo "<a href='register'>"."Welcome ".$_SESSION['name']."</a>";
               }
             }
             else
@@ -95,7 +92,7 @@
                 echo "<a href='pages/login'>Login</a>";
               }
               else{
-                echo $welcome;
+                echo "<a href='pages/register'>"."Welcome ".$_SESSION['name']."</a>";
               }
 
             }

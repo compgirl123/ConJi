@@ -78,7 +78,7 @@
             
             //$a = $_SERVER['REQUEST_URI'];
             if((isset($_SESSION['name']))){
-              $welcome = "<a href='login'>"."Welcome ".$_SESSION['name']."</a>";
+              $welcome = "<a href='profile'>"."Welcome ".$_SESSION['name']."</a>";
             }
             
 

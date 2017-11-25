@@ -93,6 +93,9 @@ class Pages extends CI_Controller{
 		$this->load->view('pages/'.'profile');
 		$this->load->view('templates/footer');
 
+		$this->load->model("profile");
+		$this->profile->NormalMemberDetails();
+
 	}
 
 

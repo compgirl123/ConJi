@@ -76,7 +76,6 @@
             <li> 
             <?php
             
-            //$a = $_SERVER['REQUEST_URI'];
             if((isset($_SESSION['name']))){
               $welcome = "<a href='profile'>"."Welcome ".$_SESSION['name']."</a>";
             }

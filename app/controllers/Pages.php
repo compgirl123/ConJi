@@ -80,6 +80,7 @@ class Pages extends CI_Controller{
 	function postad()
 	{
 		$this->load->view('templates/header');
+		$this->load->view('templates/css');
 		$this->load->view('pages/'.'postad');
 		$this->load->view('templates/footer');
 
@@ -88,6 +89,7 @@ class Pages extends CI_Controller{
 	function profile()
 	{
 		$this->load->view('templates/header');
+		$this->load->view('templates/css');
 		$this->load->view('pages/'.'profile');
 		$this->load->view('templates/footer');
 

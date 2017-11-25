@@ -31,7 +31,7 @@
         <!-- Top content -->
 
         <div class="top-content">
-        	asfd
+        	
             <div class="inner-bg">
                 <div class="container">
                     <div class="row">

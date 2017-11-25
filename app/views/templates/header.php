@@ -14,7 +14,7 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">ConJi</a>
 
         </div>
         <div id="navbar" class="navbar-collapse collapse">

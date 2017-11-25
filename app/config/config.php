@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://www.conji.ga/';
+$config['base_url'] = 'http://conji.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------

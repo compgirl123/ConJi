@@ -77,13 +77,17 @@
             <?php
             
             //$a = $_SERVER['REQUEST_URI'];
+            if((isset($_SESSION['name']))){
+              $welcome = "<a href='profile'>"."Welcome ".$_SESSION['name']."</a>";
+            }
+            
 
             if (strpos($href, 'pages') !== false) {
               if(!(isset($_SESSION['name']))){
                 echo "<a href='login'>Login</a>";
               }
               else{
-                echo "<a href=''>"."Welcome ".$_SESSION['name']."</a>";
+                echo $welcome;
               }
             }
             else
@@ -92,7 +96,7 @@
                 echo "<a href='pages/login'>Login</a>";
               }
               else{
-                echo "<a href=''>"."Welcome ".$_SESSION['name']."</a>";
+                echo $welcome;
               }
 
             }

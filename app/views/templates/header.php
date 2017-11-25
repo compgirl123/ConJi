@@ -83,7 +83,7 @@
                 echo "<a href='login'>Login</a>";
               }
               else{
-                echo "<a href='register'>"."Welcome ".$_SESSION['name']."</a>";
+                echo "<a href='profile'>"."Welcome ".$_SESSION['name']."</a>";
               }
             }
             else
@@ -92,7 +92,7 @@
                 echo "<a href='pages/login'>Login</a>";
               }
               else{
-                echo "<a href='pages/register'>"."Welcome ".$_SESSION['name']."</a>";
+                echo "<a href='pages/profile'>"."Welcome ".$_SESSION['name']."</a>";
               }
 
             }

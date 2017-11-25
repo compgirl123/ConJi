@@ -77,7 +77,7 @@
             <?php
             
             if((isset($_SESSION['name']))){
-              $welcome = "<a href='pages/profile'>"."Welcome ".$_SESSION['name']."</a>";
+              $welcome = "<a href='register'>"."Welcome ".$_SESSION['name']."</a>";
             }
             
 

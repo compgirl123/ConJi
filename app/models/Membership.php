@@ -92,13 +92,13 @@ Class Membership extends CI_Model
 		var_dump($curr_userid);
 
 		$curr_userid = $this->db->query($curr_userid);
-
+		$curr = '';
 		foreach ($curr_userid->result() as $row)
 		{
-			var_dump($row->user_id);
+			$curr = $row->user_id;
 		}
 
-		return $curr_userid;
+		return $curr;
 
 	}
 

@@ -95,7 +95,7 @@ Class Membership extends CI_Model
 
 		foreach ($curr_userid->result() as $row)
 		{
-			 echo $row;
+			var_dump($row);
 		}
 
 		return $curr_userid;

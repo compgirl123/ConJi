@@ -111,18 +111,9 @@
       
           <div class="row" >
               <div id="categoryElement" class="col-md-6" style="padding:5; margin:0; background-color: #A9BCD0;">
-                <h1 class="categoryTitle"><a href="#">Buy and Sell</a></h1>
+                <h1 class="categoryTitle"><a href="clothing">Buy and Sell</a></h1>
                   
-                  <!--
-                  <ul>
-                    <li><a href="#">Clothing</a></li>
-                    <li><a href="#">Books</a></li>
-                    <li><a href="#">Electronics</a></li>
-                    <li><a href="#">Musical Instruments</a></li>
-                  </ul>
-                    -->
-                  
-                  <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="clothing">
+                  <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="clothing" id="clothing">
                     <div  class="bgimg-1">
                         
                           <div class="caption">
@@ -131,7 +122,7 @@
                     </div>  </a>
                   </div>
                   
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="Books">
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="books" id="Books">
                     <div  class="bgimg-2">
                         
                           <div class="caption">
@@ -140,7 +131,7 @@
                     </div>  </a>
                   </div>
                   
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="Electronics">
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="electronics" id="Electronics">
                     <div  class="bgimg-3">
                         
                           <div class="caption">

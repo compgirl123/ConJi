@@ -73,9 +73,11 @@ class Pages extends CI_Controller{
 
 	function postad()
 	{
+		$this->load->model("membership");
+		$data['members'] = $this->membership->normalMember();
 		$this->load->view('templates/header');
 		$this->load->view('templates/css');
-		$this->load->view('pages/'.'postad');
+		$this->load->view('pages/'.'postad',$data);
 		$this->load->view('templates/footer');
 
 	}
@@ -90,7 +92,6 @@ class Pages extends CI_Controller{
 		$this->load->view('pages/'.'profile',$data);
 		$this->load->view('templates/footer');
 
-
 	}
 
 	function checkout()
@@ -99,6 +100,32 @@ class Pages extends CI_Controller{
 		$this->load->view('templates/css');
 		$this->load->view('pages/'.'checkout');
 		$this->load->view('templates/footer');
+	}
+
+	function clothing()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('templates/css');
+		$this->load->view('pages/'.'clothing');
+		$this->load->view('templates/footer');
+	}
+
+	function books()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('templates/css');
+		$this->load->view('pages/'.'books');
+		$this->load->view('templates/footer');
+
+	}
+
+	function electronics()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('templates/css');
+		$this->load->view('pages/'.'electronics');
+		$this->load->view('templates/footer');
+
 	}
 
 

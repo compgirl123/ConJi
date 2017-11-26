@@ -426,11 +426,11 @@ height:100%;
               <div class="row">
                 <div class="col-md-12">
                  <h3>For Sale By</h3>
-                    
+                  
 
                     <h3>Membership Plan</h3>
                     <ul style="list-style-type:none;">
-                         <li>Normal Plan: Any Ad is visible for 7 days.<input type="radio" id="radioNormalPlanChoice" name="radioPlanChoice" class="radioNormalPlanChoice"></li>
+                         <li>Normal Plan: Any Ad is visible for 7 days.<input type="radio" id="radioNormalPlanChoice" name="radioPlanChoice" class="radioNormalPlanChoice" val =></li>
                          <li>Silver Plan: Any Ad is visible for 14 days.<input type="radio" id="radioSilverPlanChoice" name="radioPlanChoice" class="radioSilverPlanChoice"></li>
                          <li>Silver Plan: Any Ad is visible for 14 days.<input type="radio" id="radioPremiumPlanChoice" name="radioPlanChoice" class="radioPremiumPlanChoice"></li>
                     </ul>

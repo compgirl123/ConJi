@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,13 +11,7 @@
 
     <title>Static Top Navbar Example for Bootstrap</title>
 
-    <!-- Bootstrap core CSS -->
-    <!--<link href="<?php echo base_url(); ?>assets/css/bootstrap.css" rel="stylesheet">
-
-    
- <link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">-->
       <style>
-
        
 .bgimg-1 {
   position: relative;
@@ -47,7 +40,6 @@ height:100%;
   width: 100%;
 height:100%;
 }
-
 .bgimg-3 {
   position: relative;
   background: linear-gradient(
@@ -61,7 +53,6 @@ height:100%;
   width: 100%;
 height:100%;
 }
-
 .bgimg-4 {
   position: relative;
   background: linear-gradient(
@@ -89,7 +80,6 @@ height:100%;
   width: 100%;
 height:100%;
 }
-
  .bgimg-6 {
   position: relative;
   background: linear-gradient(
@@ -103,7 +93,6 @@ height:100%;
   width: 100%;
 height:100%;
 }
-
  .bgimg-7 {
   position: relative;
   background: linear-gradient(
@@ -117,7 +106,6 @@ height:100%;
   width: 100%;
 height:100%;
 }
-
 .bgimg-8 {
   position: relative;
   background: linear-gradient(
@@ -145,7 +133,6 @@ height:100%;
   width: 100%;
 height:100%;
 }
-
 .bgimg-10 {
   position: relative;
   background: linear-gradient(
@@ -173,7 +160,6 @@ height:100%;
   width: 100%;
 height:100%;
 }
-
 .bgimg-12 {
   position: relative;
   background: linear-gradient(
@@ -215,7 +201,6 @@ height:100%;
   width: 100%;
 height:100%;
 }  
-
 .bgimg-15 {
   position: relative;
   background: linear-gradient(
@@ -229,7 +214,6 @@ height:100%;
   width: 100%;
 height:100%;
 } 
-
 .bgimg-16 {
   position: relative;
   background: linear-gradient(
@@ -252,7 +236,6 @@ height:100%;
   text-align: center;
   color: #000;
 }
-
 .caption p.border {
   
   text-align: center;
@@ -261,7 +244,6 @@ height:100%;
   font-size: 0.90em;
   letter-spacing: 10px;
 }
-
 .topStore1{
               
 }
@@ -283,10 +265,9 @@ height:100%;
       /*****
         display image when it's picked.
       ****/    
-           function PreviewImage() {
+      function PreviewImage() {
         var oFReader = new FileReader();
         oFReader.readAsDataURL(document.getElementById("selectImg").files[0]);
-
         oFReader.onload = function (oFREvent) {
             document.getElementById("adImg").src = oFREvent.target.result;
         };
@@ -297,52 +278,41 @@ height:100%;
   <body>
 
 
-    <!-- Static navbar -->
-    
-
-
-
     <div class="container">
 
-	<!--
-	1.	Contact Information - Email or Phone number.
-
-2.	Price - in CAD.
-
-3.	Ad type: Category Selected.
-
-4.	For Sale by: Owner/Business.
-5.	Availability: Online/Store.
-
-6.	Title and Description.
-7.	Address.
-
-8.	Images.
-
-	-->
+  <!--
+  1.  Contact Information - Email or Phone number.
+2.  Price - in CAD.
+3.  Ad type: Category Selected.
+4.  For Sale by: Owner/Business.
+5.  Availability: Online/Store.
+6.  Title and Description.
+7.  Address.
+8.  Images.
+  -->
       <!-- Main component for header -->
-	  <form runat="server" id="adForm" method="post" action="">
-	  
+    <form runat="server" id="adForm" method="post" action="">
+    
       <div class="jumbotron">
         <div class="panel">
         <h3>New Ad Post</h3>
           <nav class="navbar  ">
-		  <div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<img src="https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/_Unknown.png" id="adImg" class="adImg" name="adPic" style="width:200px; height: 200px;">
-					<input type="file" name="selectImg" class="selectImg" id="selectImg" style="padding:10px;"   accept="image/*" onchange="PreviewImage();">
-				</div>
-				<div class="col-md-8">
-				      <h3>Address</h3>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/_Unknown.png" id="adImg" class="adImg" name="adPic" style="width:200px; height: 200px;">
+          <input type="file" name="selectImg" class="selectImg" id="selectImg" style="padding:10px;"   accept="image/*" onchange="PreviewImage();">
+        </div>
+        <div class="col-md-8">
+              <h3>Address</h3>
                         <input type="text" id="homeAddress" class="homeAddress" name="homeAddress" style="width:100%;">
                      <h3>Contact</h3>
                     <label>E-mail </label>
                         <input type="text" id="email" class="email" name="email" style="width:100%;">
                     <label>Phone </label>
                         <input type="text" id="phone" class="phone" name="phone" style="width:100%;">
-			     </div>
-			  
+           </div>
+        
               </div><!--- /row-->
               <div class="row">
                   <div class="col-md-4">
@@ -376,7 +346,7 @@ height:100%;
                         </blockquote>
                   </div>
               </div><!-- /row -->
-		  </div><!-- /container -->
+      </div><!-- /container -->
         
               <!-- this will only show if "sell" option is picked -->
               <div class="container" id="sellOptionsContainer" name="sellOptionsContainer" class="sellOptionsContainer">
@@ -431,10 +401,10 @@ height:100%;
                   </div>
               </div><!-- /store container -->
               
-		</div><!-- /panel -->
-	</div><!-- /jumbotron -->
-	
-	<div class="container">
+    </div><!-- /panel -->
+  </div><!-- /jumbotron -->
+  
+  <div class="container">
         
               
               <div class="row">
@@ -472,22 +442,14 @@ height:100%;
         <input  id="clear" type="submit" value=
 "NEXT">
      </div> 
-	</div>
+  </div>
          
-	</form>
-</div>	 
+  </form>
+</div>   
       
      
               
             
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
-
-    <!--<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/ie10-viewport-bug-workaround.js"></script>-->
   </body>
 </html>

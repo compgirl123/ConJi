@@ -24,9 +24,9 @@ Class Membership extends CI_Model
 		//$get_membership = "INSERT INTO `normal`(user_id) VALUES(SELECT "
 		
 		
-		//return $result;
+		return $result;
 
-		return "normal";
+		//return "normal";
 	}
 
 	function silverMember()
@@ -74,8 +74,10 @@ Class Membership extends CI_Model
 
 	function membershipType()
 	{
-		$substring = substr($_SESSION['name'], 0, strpos($_SESSION['name'], ' '));
-		var_dump($substring);
+		$first_name = substr($_SESSION['name'], 0, strpos($_SESSION['name'], ' '));
+		$last_name = substr($_SESSION['name'], 0, strpos($_SESSION['name'], ' '));
+		var_dump($first_name);
+		var_dump($last_name);
 		//var_dump($firstWord);
 		//"SELECT user_id FROM `user` WHERE first_name = $_SESSION['name'] ";
 	}

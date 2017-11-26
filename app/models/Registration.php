@@ -41,8 +41,6 @@ Class Registration extends CI_Model
 
 			 $result = $this->db->query($user);
 
-			 //$userInfo = $this->membership->normalMember();
-
 			 $plan = "INSERT INTO `normal`(user_id) SELECT user_id FROM `user` WHERE first_name ="."'".$_POST['form-fname']."'";
 			 $result = $this->db->query($plan);
 

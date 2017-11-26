@@ -76,10 +76,15 @@ Class Membership extends CI_Model
 	{
 		$first_name = substr($_SESSION['name'], 0, strpos($_SESSION['name'], ' '));
 		$last_name = substr($_SESSION['name'], 0, strpos($_SESSION['name'], ' '));
-		var_dump($first_name);
-		var_dump($last_name);
-		//var_dump($firstWord);
-		//"SELECT user_id FROM `user` WHERE first_name = $_SESSION['name'] ";
+		/*var_dump($first_name);
+		var_dump($last_name);*/
+
+		$curr_userid = "SELECT user_id FROM `user` WHERE first_name ="."'".$first_name."'". "AND last_name ="."'".$last_name."'"."";
+		$result = $this->db->query($curr_userid);
+/*
+		SELECT `normal.user_id` as normal FROM `normal`
+		INNER JOIN `user` ON `normal.user_id` = `user.user_id`
+		WHERE user_id = $curr_user*/
 	}
 
 	

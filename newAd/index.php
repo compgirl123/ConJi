@@ -15,6 +15,10 @@
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.css" rel="stylesheet">
  <link href="../css/custom.css" rel="stylesheet">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+ 
+  
       <style>
 
        
@@ -36,26 +40,12 @@
 }
       </style>
 
-      <script>
-      /*****
-        display image when it's picked.
-      ****/    
-           function PreviewImage() {
-        var oFReader = new FileReader();
-        oFReader.readAsDataURL(document.getElementById("selectImg").files[0]);
-
-        oFReader.onload = function (oFREvent) {
-            document.getElementById("adImg").src = oFREvent.target.result;
-        };
-    };
-          /*******************/
-          
-         
-          
-      </script>
+      
+      
+   
   </head>
 
-  <body>
+  <body onload="defaultDisplay();">
 
 
     <!-- Static navbar -->
@@ -258,15 +248,56 @@
 		  <div class="container">
 			 <div >
                       
-                           <label>Yes</label><input type="radio" id="radioStoreChoice" name="radioStoreChoice" class="radioStoreChoice" value="Y" >
-                           <label>No</label><input type="radio" id="radioStoreChoice" name="radioStoreChoice" class="radioStoreChoice" value="N" >
+                           <label>Yes</label><input type="radio" id="radioStoreChoice" name="radioStoreChoice" class="radioStoreChoiceYes" value="Y" onclick="showStoreOptions();">
+                           <label>No</label><input type="radio" id="radioStoreChoice" name="radioStoreChoice" class="radioStoreChoiceNo" value="N" onclick="hideStoreOptions();">
                       </div>
                       <!-- this only shows up if the user selects "yes" for store -->
                        <div  id="storeLocationRow" name="storeLocationRow" class="storeLocationRow">
                         <h3>Physical Store</h3>
                            <p>***A base price of $15/hr + SL rate from $15 is added to the total rent of the store***</p>
                            
-                           <label>Hours for Store Rental</label><input type="number" id="radioYesStoreChoice" name="radioYesStoreChoice" class="radioYesStoreChoice" min="1" max="8">
+                          
+                            <div class="form-group">
+                      <label for="sel1">Which Store? </label>
+                      <select class="form-control" id="storeList" name="storeList" required>
+                          <option value="#">-----</option>
+                           
+                        <option value="storeID">Premade Store</option>
+                      </select>
+                    </div>
+                           
+                           <div class="container">
+                             
+                               <div class="row">
+                               <label>Date </label><input type="text" name="datepicker" id="datepicker">
+                                   </div>
+                               <div class="row" style="margin:5px;">
+                             
+                                   <hr>
+                                   <div class="container showTimeSlot" id="showTimeSlot">
+                                         <label>Available Time Slots</label>
+                               <table class="table table-hover" >
+                                <thead>
+                                    <th>Start</th>
+                                    <th>End</th>
+                                    <th>Select</th>
+                                   </thead>
+                                   <tbody>
+                                    <tr>
+                                        <td>1pm</td>
+                                        <td>3pm</td>
+                                      <td><input type="radio" value="2" name="timeFrameChoice" id="timeFrameChoice" class="timeFrameChoice" required>
+                                          </td> 
+                                    </tr>
+                                </tbody>
+                               
+                               </table>
+                                       </div>
+                               </div>
+                               <div class="row">
+                               <label>Hours for Store Rental</label> <input type="number" id="storeTimeReserve" name="storeTimeReserve" class="storeTimeReserve" min="1" max="8" required>
+                               </div>
+                           </div>
                            <div class="container">
                                <table class="table table-hover storeHoursAndRates" id="storeHoursAndRates" name="storeHoursAndRates">
                               <tbody>
@@ -278,23 +309,23 @@
                                 <tr>
                                     <td>SL-1 has 400 customers per hour (CpH) visiting the store</td>
                                     <td>20</td>
-                                    <td><input type="radio" value="1.20" name="sl-Choice" id="sl-Choice" class="sl-Choice"></td>
+                                    <td><input type="radio" value="1.20" name="sl-Choice" id="sl-Choice" class="sl-Choice" required></td>
                                 </tr>
                                   <tr>
                                     <td>SL-2 has 300 customers per hour
 (CpH) visiting the store</td>
                                     <td>15</td>
-                                    <td><input type="radio" value="1.15" name="sl-Choice" id="sl-Choice" class="sl-Choice"></td>
+                                    <td><input type="radio" value="1.15" name="sl-Choice" id="sl-Choice" class="sl-Choice" required></td>
                                 </tr>
                                   <tr>
                                     <td>SL-3 has 200 customers per hour (CpH) visiting the store</td>
                                     <td>10</td>
-                                    <td><input type="radio" value="1.1" name="sl-Choice" id="sl-Choice" class="sl-Choice"></td>
+                                    <td><input type="radio" value="1.1" name="sl-Choice" id="sl-Choice" class="sl-Choice" required></td>
                                 </tr>
                                   <tr>
                                     <td>SL-4 has 100 customers per hour (CpH) visiting the store</td>
                                     <td>5</td>
-                                    <td><input type="radio" value="1.05" name="sl-Choice" id="sl-Choice" class="sl-Choice"></td>
+                                    <td><input type="radio" value="1.05" name="sl-Choice" id="sl-Choice" class="sl-Choice" required></td>
                                 </tr>
                                  
                               </tbody>
@@ -326,7 +357,7 @@
                     <table class="table table-hover" id="totalAdCostDisplay">
                         <td>Total</td>
                         <td></td>
-                        <td name="totalPrice" >$0.00 </td>
+                        <td name="totalPrice" id="totalPrice" value="0.00">$0.00 </td>
                     </table>
                   </div>
 		  </div><!-- /container -->  
@@ -339,7 +370,7 @@
           
 		  <div class="container" style="width:100%; margin:0; text-align:center;">
 			  <div class="col-md-6">
-                    <input type="button" style="width:100%;"id="clear" value="RESET" onclick="resetForm();">
+                    <input type="reset" style="width:100%;"id="clear" value="RESET" onclick="resetForm();">
                  </div>
                 <div class="col-md-6">
                     <input  id="clear" style="width:100%;" type="submit" value="NEXT">
@@ -360,8 +391,83 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
     <script src="../js/bootstrap.min.js"></script>
+<script>
+      /*****
+        display image when it's picked.
+      ****/    
+           function PreviewImage() {
+        var oFReader = new FileReader();
+        oFReader.readAsDataURL(document.getElementById("selectImg").files[0]);
+
+        oFReader.onload = function (oFREvent) {
+            document.getElementById("adImg").src = oFREvent.target.result;
+        };
+    };
+          /*******************/
+          
+         /***
+            hide default functions
+        ***/
+         function defaultDisplay(){
+             document.getElementById("storeLocationRow").style.display = "none";
+             document.getElementById('showTimeSlot').style.display="none";
+             
+         }
+          
+        /***
+            click "yes" to store
+        ***/
+          function showStoreOptions(){
+              document.getElementById("storeLocationRow").style.display = "inline";
+          }
+          /***
+            click "no" to store
+        ***/
+          function hideStoreOptions(){
+              document.getElementById("storeLocationRow").style.display = "none";
+              document.getElementById("sl-Choice").value= " ";
+            
+          }
+          
+          /****
+            datePicker
+            **/
+          $( function() {
+                $( "#datepicker" ).datepicker();
+              } );
+          
+          
+          /*********************************
+          showSchedule
+          **/
+            function showTimeSlot(){
+                
+                document.getElementById('showTimeSlot').style.display="inline";
+                
+            }
+    
+           $(document).ready(function(){
+                $("#datepicker").on('change', showTimeSlot);   
+           });
+    
+            /********************************
+            reset every form
+            **/
+          function resetForm()
+          {
+              document.getElementById('adImg').src ="https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/_Unknown.png";
+              
+               document.getElementById("storeLocationRow").style.display = "none";
+              document.getElementById('showTimeSlot').style.display="none";
+              document.getElementById('totalPrice').value="$0.00";
+              
+              
+          }
+          
+      </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
   </body>

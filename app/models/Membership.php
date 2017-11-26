@@ -86,7 +86,6 @@ Class Membership extends CI_Model
 		$last_name = substr($_SESSION['name'], (strpos($_SESSION['name'], ' ') ?: -1) + 1);
 
 		$curr_userid = "SELECT user_id FROM `user` WHERE first_name ="."'".$first_name."'". "AND last_name ="."'".$last_name."'"."";
-		var_dump($curr_userid);
 
 		$curr_userid = $this->db->query($curr_userid);
 		$curr = '';

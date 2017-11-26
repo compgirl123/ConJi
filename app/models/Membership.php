@@ -29,7 +29,7 @@ Class Membership extends CI_Model
 		$result = $this->db->query($normal);
 		var_dump($result);
 
-		if(!empty($result)){
+		if($result->num_rows() > 0){
 			$plan = "normal";
 		}
 		else{

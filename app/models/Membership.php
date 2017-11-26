@@ -22,22 +22,21 @@ Class Membership extends CI_Model
 
 		$curr_user = $this->currentUserId();
 
+
 		$normal = "SELECT user_id FROM `normal`
 				   WHERE user_id ="."'".$curr_user."'";
 
-		var_dump($normal);
-
 		$result = $this->db->query($normal);
 
+		if(!empty($result)){
+			$plan = "normal";
+		}
+		else{
+			$plan = '';
+		}
 		
+		return $plan;
 
-		//var_dump($_SESSION['name']);
-		//$get_membership = "INSERT INTO `normal`(user_id) VALUES(SELECT "
-		
-		
-		return $result;
-
-		//return "normal";
 	}
 
 	function silverMember()

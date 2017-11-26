@@ -19,7 +19,8 @@ Class Membership extends CI_Model
 							)";
 			$result = $this->db->query($create_table);
 		}
-		var_dump($_SESSION['name']);
+		$this->membershipType();
+		//var_dump($_SESSION['name']);
 		//$get_membership = "INSERT INTO `normal`(user_id) VALUES(SELECT "
 		
 		
@@ -69,6 +70,13 @@ Class Membership extends CI_Model
 		//return $result;
 
 		return "premium";
+	}
+
+	funciton membershipType()
+	{
+		list($firstWord) = explode(' ', $_SESSION['name']);
+		var_dump(list($firstWord));
+		//"SELECT user_id FROM `user` WHERE first_name = $_SESSION['name'] ";
 	}
 
 	

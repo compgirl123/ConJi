@@ -74,8 +74,9 @@ Class Membership extends CI_Model
 
 	function membershipType()
 	{
-		list($firstWord) = explode(' ', $_SESSION['name']);
-		var_dump(list($firstWord));
+		$substring = substr($string, 0, strpos($string, ' '));
+		var_dump($substring);
+		//var_dump($firstWord);
 		//"SELECT user_id FROM `user` WHERE first_name = $_SESSION['name'] ";
 	}
 

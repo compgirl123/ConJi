@@ -91,7 +91,12 @@
                           <p name="objDesc" id="objDesc">
                           <?php
                               $a = $_GET["plan"];
-                              echo strtoupper($a);
+                              if($a == "silver" || $a == "premium"){
+                                  echo strtoupper($a);
+                               }
+                               else{
+                                header("Location: profile");
+                               }  
                           ?>
                           </p>
                         </div>

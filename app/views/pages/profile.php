@@ -365,8 +365,10 @@ height:100%;
                             plan2 = premium2[key];
                         }
                         }
-                        $("#silver").attr('href','checkout'+'?'+'plan='+plan1.substring(1,plan1.len));
-                        $("#premium").attr('href','checkout'+'?'+'plan='+plan2.substring(1,plan2.len));
+
+                        
+                        $("#silver").attr('href','checkout'+'?'+'plan='+plan1.substring(1,plan1.len)+'&'+'cost=50');
+                        $("#premium").attr('href','checkout'+'?'+'plan='+plan2.substring(1,plan2.len)+'&'+'cost=90');
                         // 50$ silver
                         // 90$ premium
                         // 0$ normal

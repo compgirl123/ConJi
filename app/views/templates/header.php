@@ -60,6 +60,7 @@
           <ul class="nav navbar-nav navbar-right">
           <li> 
             <?php
+            //session_start();
             //var_dump($_SESSION['name']);
             $href = $_SERVER['REQUEST_URI'];
              if (strpos($href, 'pages') !== false) {
@@ -76,9 +77,6 @@
             </li>
             <li> 
             <?php
-           
-            
-
             if (strpos($href, 'pages') !== false) {
               if(!(isset($_SESSION['name']))){
                 echo "<a href='login'>Login</a>";

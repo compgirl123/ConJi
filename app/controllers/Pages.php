@@ -102,13 +102,6 @@ class Pages extends CI_Controller{
 		$this->load->view('templates/footer');
 	}
 
-	function clothing()
-	{
-		$this->load->view('templates/header');
-		$this->load->view('templates/css');
-		$this->load->view('pages/'.'clothing');
-		$this->load->view('templates/footer');
-	}
 
 	function books()
 	{
@@ -123,9 +116,18 @@ class Pages extends CI_Controller{
 	{
 		$this->load->view('templates/header');
 		$this->load->view('templates/css');
+		$this->load->view('templates/viewad');
 		$this->load->view('pages/'.'electronics');
 		$this->load->view('templates/footer');
 
+	}
+
+	function musicalinstruments()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('templates/css');
+		$this->load->view('pages/'.'musicalinstruments');
+		$this->load->view('templates/footer');
 	}
 
 

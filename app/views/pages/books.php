@@ -12,7 +12,9 @@
     <title>Buy and Sell</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
+  
 	
 	<!--customCss-->
 	<link href="css/custom.css" rel="stylesheet">

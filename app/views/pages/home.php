@@ -133,7 +133,7 @@
                     </div>  </a>
                   </div>
                   
-                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="#" id="Instruments">
+                   <div class="row" style="height: 200px; overflow:hidden; text-align:center; " ><a href="musicalinstruments" id="Instruments">
                     <div  class="bgimg-4">
                         
                           <div class="caption">

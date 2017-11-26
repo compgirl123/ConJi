@@ -12,12 +12,10 @@
     <title>Buy and Sell</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
 	
 	<!--customCss-->
-
-	<link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
  <style>
       
      .textright1{
@@ -79,7 +77,7 @@
    
  
 
-    <!--<nav id="headerNav" class="navbar navbar-default navbar-fixed-top" style="background-color:floralwhite; margin: 0px ; padding: 10px;">
+    <nav id="headerNav" class="navbar navbar-default navbar-fixed-top" style="background-color:floralwhite; margin: 0px ; padding: 10px;">
         <div class="container-fluid">
               <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -101,9 +99,9 @@
               </div>
           <button type="submit" class="btn btn-success">Post Ad</button>
           </form>
-        </div><
+        </div><!--/.navbar-collapse -->
       </div>
-    </nav>-->
+    </nav>
 
 <!--     <div id="searchPanel" class="container" style=" background-color:; margin-top: 2em; padding-top: 50px;">
     <div class="panel panel-default"  style=" background-color: black;">
@@ -147,8 +145,12 @@
       
       
      
-<nav id="headerNav" class="navbar navbar-default" style=" background-color:#5cb85c; padding-left: 12px">
-    
+<nav id="headerNav" class="navbar navbar-default" style=" background-color:#5cb85c; margin-top: 95px ; padding-left: 12px">
+    <!--  <div class="container-fluid">
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+             <h1 style="color:darkcyan">Rental  <small>Services</small></h1>
+      
+    </div>-->
      <form class="navbar-form navbar-left" style="margin:none; padding:none;color:darkcyan">
    <font class="ChangedFont cornsilkColorText">BUY&SELL</font>  <small class="cornsilkColorText">Services</small>
     </form>
@@ -190,18 +192,17 @@
 
   <!-- List group -->
   <ul class="list-group">
-    <li class="list-group-item active selected "><a href="clothing">Clothing</a></li>
-    <li class="list-group-item"><a href="books">Books</a></li>
-    <li class="list-group-item"><a href="electronics">Electronics</a></li>
-    <li class="list-group-item"><a href="musicalinstruments">Musical Instruments</a> </li>
+    <li class="list-group-item"><a href="buyandsellclothing.html">Clothing</a></li>
+    <li class="list-group-item"><a href="buyandsellbooks.html">Books</a></li>
+    <li class="list-group-item"><a href="buyandsellelectronics.html">Electronics</a></li>
+    <li class="list-group-item active selected"><a href="buyandsellmusical.html">Musical Instruments</a> </li>
     </ul>
 </div>
         </div>
 <div class="col-md-2">
 
         <div class="thumbnail">
-      <img src="<?php echo base_url(); ?>assets/img/ht_dell_xps_duo_12_ll_120831_wmain.jpg" alt="...">
-
+      <img src="img/ht_dell_xps_duo_12_ll_120831_wmain.jpg" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p> ... </p>
@@ -213,8 +214,7 @@
         <div class="col-md-2">
 
         <div class="thumbnail">
-      <img src="<?php echo base_url(); ?>assets/img/images.jpg" alt="...">
-
+      <img src="img/images.jpg" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -227,8 +227,7 @@
         <div class="col-md-2">
 
         <div class="thumbnail">
-
-      <img src="<?php echo base_url(); ?>assets/img/396774-the-10-best-ultraportables.jpg"  alt="...">
+      <img src="img/396774-the-10-best-ultraportables.jpg" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -241,7 +240,7 @@
         <div class="col-md-2">
 
         <div class="thumbnail">
-      <img src="<?php echo base_url(); ?>assets/img/ht_dell_xps_duo_12_ll_120831_wmain.jpg" alt="...">
+      <img src="img/ht_dell_xps_duo_12_ll_120831_wmain.jpg" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -254,7 +253,7 @@
         <div class="col-md-2">
 
         <div class="thumbnail">
-      <img src="<?php echo base_url(); ?>assets/img/ht_dell_xps_duo_12_ll_120831_wmain.jpg" alt="...">
+      <img src="img/ht_dell_xps_duo_12_ll_120831_wmain.jpg" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>  ... </p>
@@ -344,8 +343,7 @@
     
     <div class="col-md-2">
          <div class="thumbnail">
-
-      <img src="<?php echo base_url(); ?>assets/img/vfcon084827.jpg" alt="...">
+      <img src="img/vfcon084827.jpg" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -358,8 +356,7 @@
         
          <div class="col-md-2">
          <div class="thumbnail">
-
-      <img src="<?php echo base_url(); ?>assets/img/lenovo-laptop-yoga-900-series-list.png" alt="...">
+      <img src="img/lenovo-laptop-yoga-900-series-list.png" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -371,7 +368,7 @@
         
         <div class="col-md-2">
          <div class="thumbnail">
-     <img src="<?php echo base_url(); ?>assets/img/lenovo-laptop-yoga-900-series-list.png" alt="...">
+      <img src="img/lenovo-laptop-yoga-900-series-list.png" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -382,7 +379,7 @@
         
          <div class="col-md-2">
          <div class="thumbnail">
-    <img src="<?php echo base_url(); ?>assets/img/lenovo-laptop-yoga-900-series-list.png" alt="...">
+      <img src="img/lenovo-laptop-yoga-900-series-list.png" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -429,7 +426,7 @@
         
          <div class="col-md-2">
          <div class="thumbnail">
-       <img src="<?php echo base_url(); ?>assets/img/lenovo-laptop-yoga-900-series-list.png" alt="...">
+      <img src="img/lenovo-laptop-yoga-900-series-list.png" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -441,7 +438,7 @@
         
         <div class="col-md-2">
          <div class="thumbnail">
-       <img src="<?php echo base_url(); ?>assets/img/lenovo-laptop-yoga-900-series-list.png" alt="...">
+      <img src="img/lenovo-laptop-yoga-900-series-list.png" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -452,7 +449,7 @@
         
          <div class="col-md-2">
          <div class="thumbnail">
-       <img src="<?php echo base_url(); ?>assets/img/lenovo-laptop-yoga-900-series-list.png" alt="...">
+      <img src="img/lenovo-laptop-yoga-900-series-list.png" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -499,7 +496,7 @@
         
          <div class="col-md-2">
          <div class="thumbnail">
-      <img src="<?php echo base_url(); ?>assets/img/lenovo-laptop-yoga-900-series-list.png" alt="...">
+      <img src="img/lenovo-laptop-yoga-900-series-list.png" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -511,7 +508,7 @@
         
         <div class="col-md-2">
          <div class="thumbnail">
-     <img src="<?php echo base_url(); ?>assets/img/lenovo-laptop-yoga-900-series-list.png" alt="...">
+      <img src="img/lenovo-laptop-yoga-900-series-list.png" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -522,8 +519,7 @@
         
          <div class="col-md-2">
          <div class="thumbnail">
-      <img src="<?php echo base_url(); ?>assets/img/lenovo-laptop-yoga-900-series-list.png" alt="...">
-      
+      <img src="img/lenovo-laptop-yoga-900-series-list.png" alt="...">
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>...</p>
@@ -633,7 +629,9 @@
         
 
     
-
+    
+    
+    
     
     
     
@@ -641,13 +639,12 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-       <!--customJavaScript-->    
+       <!--customJavaScript-->
+    <script src="js/custom.js"></script>      
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>
-
+    <script src="js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="<?php echo base_url(); ?>assets/js/ie10-viewport-bug-workaround.js"></script>
-    <link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
 

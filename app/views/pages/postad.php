@@ -335,15 +335,31 @@ height:100%;
               <div class="row">
                <div class="col-md-12">
                         <h3>Title</h3>
-                        <input type="text" id="adTitle" class="adTitle" name="adTitle" style="width:100%;">
-                      
-                        
-                  
-                  
+                        <input type="text" id="ad" class="ad" name="ad" style="width:100%;">
+                
                         <h3>Description</h3>
                         <blockquote contenteditable="true" name="textDesc" id="textDesc" class="textDesc" style=" height: 200px; border: 1px solid black; padding: 5px;">
-                        
                         </blockquote>
+
+                        <h3>Category</h3>
+
+                        <select class="ui search dropdown">
+                          <option value="appartments">Appartments</option>
+                          <option value="books">Books</option>
+                          <option value="car">Car</option>
+                          <option value="clothing">Clothing</option>
+                          <option value="corporation">Corporation</option>
+                          <option value="electronics">Electronics</option>
+                          <option value="evenplanners">Event Planners</option>
+                          <option value="industrial">Industrial</option>
+                          <option value="musicalinstruments">Musical Instruments</option>
+                          <option value="nonprofit">Non-Profit</option>
+                          <option value="partime">Part-Time</option>
+                          <option value="personaltrainers">Personal Trainers</option>
+                          <option value="photographers">Photographers</option>
+                          <option value="tutors">Tutors</option>
+                          <option value="weddingdresses">Wedding Dresses</option>
+                        </select>
                   </div>
               </div><!-- /row -->
       </div><!-- /container -->
@@ -409,19 +425,22 @@ height:100%;
               
               <div class="row">
                 <div class="col-md-12">
+                 <h3>For Sale By</h3>
+                    
+
                     <h3>Membership Plan</h3>
                     <ul style="list-style-type:none;">
-                         <li>Normal Plan: Any Ad is visible for 7 days.<input type="radio" id="radioNormalPlanChoice" name="radioNormalPlanChoice" class="radioNormalPlanChoice"></li>
-                         <li>Silver Plan: Any Ad is visible for 14 days.<input type="radio" id="radioSilverPlanChoice" name="radioSilverPlanChoice" class="radioSilverPlanChoice"></li>
-                         <li>Silver Plan: Any Ad is visible for 14 days.<input type="radio" id="radioPremiumPlanChoice" name="radioPremiumPlanChoice" class="radioPremiumPlanChoice"></li>
+                         <li>Normal Plan: Any Ad is visible for 7 days.<input type="radio" id="radioNormalPlanChoice" name="radioPlanChoice" class="radioNormalPlanChoice"></li>
+                         <li>Silver Plan: Any Ad is visible for 14 days.<input type="radio" id="radioSilverPlanChoice" name="radioPlanChoice" class="radioSilverPlanChoice"></li>
+                         <li>Silver Plan: Any Ad is visible for 14 days.<input type="radio" id="radioPremiumPlanChoice" name="radioPlanChoice" class="radioPremiumPlanChoice"></li>
                     </ul>
                 </div>
                   <div class="col-md-12">
                     <h3>Promotion Packages</h3>
                     <ul style="list-style-type:none;">
-                         <li>7 days promotion- $10 <input type="radio" id="radio7dayPromo" name="radio7dayPromo" class="radio7dayPromo"></li>
-                          <li>30 days promotion- $50 <input type="radio" id="radio30dayPromo" name="radio30dayPromo" class="radio30dayPromo"></li>
-                         <li>60 days promotion- $90 <input type="radio" id="radio60dayPromo" name="radio60dayPromo" class="radio60dayPromo"></li>
+                         <li>7 days promotion- $10 <input type="radio" id="radio7dayPromo" name="radioPromo" class="radio7dayPromo"></li>
+                          <li>30 days promotion- $50 <input type="radio" id="radio30dayPromo" name="radioPromo" class="radio30dayPromo"></li>
+                         <li>60 days promotion- $90 <input type="radio" id="radio60dayPromo" name="radioPromo" class="radio60dayPromo"></li>
                     </ul>
                 </div>
         </div>

@@ -119,7 +119,7 @@
             <?php
             if (strpos($href, 'pages') !== false) {
               if(!(isset($_SESSION['name']))){
-                echo "<a href='postad'>Post Ad</a>";
+                //echo "<a href='postad'>Post Ad</a>";
               }
               else{
               echo "<a href='postad'>Post Ad</a>";
@@ -128,7 +128,7 @@
             else
             {
               if(!(isset($_SESSION['name']))){
-                echo "<a href='pages/postad'>Post Ad</a>";
+                //echo "<a href='pages/postad'>Post Ad</a>";
               }
               else{
                echo "<a href='pages/postad'>Post Ad</a>";

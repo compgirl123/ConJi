@@ -19,7 +19,16 @@ Class Membership extends CI_Model
 							)";
 			$result = $this->db->query($create_table);
 		}
-		$this->membershipType();
+
+		$curr_user = $this->currentUserId();
+
+		$normal = "SELECT user_id FROM `normal`
+		WHERE user_id ="."'".$curr_user."'";
+
+		var_dump($normal);
+
+		$result = $this->db->query($normal);
+
 		//var_dump($_SESSION['name']);
 		//$get_membership = "INSERT INTO `normal`(user_id) VALUES(SELECT "
 		
@@ -72,22 +81,17 @@ Class Membership extends CI_Model
 		return "premium";
 	}
 
-	function membershipType()
+	function currentUserId()
 	{
 		$first_name = substr($_SESSION['name'], 0, strpos($_SESSION['name'], ' '));
-		//$last_name = substr($_SESSION['name'], 1, strpos($_SESSION['name'], ' '));
-		$last_name = substr($_SESSION['name'], (strpos($_SESSION['name'], ' ') ?: -1) + 1); // Returns This_is_a_string
-		/*var_dump($first_name);
-		var_dump($last_name);*/
+		$last_name = substr($_SESSION['name'], (strpos($_SESSION['name'], ' ') ?: -1) + 1);
 
 		$curr_userid = "SELECT user_id FROM `user` WHERE first_name ="."'".$first_name."'". "AND last_name ="."'".$last_name."'"."";
 		var_dump($curr_userid);
-		$result = $this->db->query($curr_userid);
-		//var_dump($result);
-/*
-		SELECT `normal.user_id` as normal FROM `normal`
-		INNER JOIN `user` ON `normal.user_id` = `user.user_id`
-		WHERE user_id = $curr_user*/
+		$curr_userid = $this->db->query($curr_userid);
+
+		return $curr_userid;
+
 	}
 
 	

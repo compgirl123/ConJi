@@ -279,298 +279,167 @@ height:100%;
   </head>
 
   <body>
+      <!--insert php nav here--->
 
+      <!--end nav--->
       
-    <!-- Static navbar -->
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bulletin Board<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                  <li class="dropdown-header">Buy/Sell</li>
-                <li><a href="#">Clothing</a></li>
-                <li><a href="#">Books</a></li>
-                <li><a href="#">Electronics</a></li>
-                <li><a href="#">Musical Instruments</a></li>
-                
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Services</li>
-                <li><a href="#">Tutors</a></li>
-                <li><a href="#">Event Planners</a></li>
-                  <li><a href="#">Photographers</a></li>
-                <li><a href="#">Personal Trainers</a></li>
-                
-                  
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Rent</li>
-                <li><a href="#">Electronics</a></li>
-                <li><a href="#">Car</a></li>
-                  <li><a href="#">Apartments</a></li>
-                <li><a href="#">Wedding-Dresses</a></li>
-                 
-                    <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Employment</li>
-                <li><a href="#">Industrial</a></li>
-                <li><a href="#">Office</a></li>
-                  <li><a href="#">Non-Profit</a></li>
-                <li><a href="#">Part-Time</a></li>
-         
-                   
-              </ul>
-            </li>
-            <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Login</a></li>
-          
-            <li><a href="../navbar-fixed-top/">Post Ad</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-
+      <!--jumbotron container begin -->
     <div class="container">
-
-      <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="panel">
           <nav class="navbar">
               <div class="container">
-                <div class="row">
-                    <!--
-                   <div id="navbar" class=" navbar-nav" >
-                      <div class="btn-group">
-                  <button type="button" class="btn btn-danger">Location</button>
-                  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="caret"></span>
-                    <span class="sr-only">Toggle Dropdown</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                      <li class="dropdown-header">Montreal</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                     <li class="dropdown-header">Montreal</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                      <li role="separator" class="divider"></li>
-                     <li class="dropdown-header">Montreal</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                  </ul>
+                <div class="row">                   
+                    <h1>Hello Admin!</h1>
                 </div>
-                        </div> -->
-                    <!--/.nav-collapse -->
-                       
-
-                    <!--
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Search for...">
-                      <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">Go!</button>
-                      </span>
-                    </div>
-                    
-                 
-                </div> -->
-                  <!-- /.row -->
-                    
-                    <h1>Hello Username!</h1>
-                    
-                    <button style="padding: 10px;" id="btnPremium" class="btnPremium">Go Premium!</button>
               </div>
             </nav>   
         </div>
           
       </div> 
-          </div><!-- /jumbotron -->
+          </div><!-- end container jumbotron -->
         
+        <!--body container begin -->
      <div class="container">
        <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#activeTab">Active Ads</a></li>
-    <li><a data-toggle="tab" href="#expTab">Expired Ads</a></li>
-    <li><a data-toggle="tab" href="#myStore">My Store</a></li>
+    <li class="active"><a data-toggle="tab" href="#activeTab">Online Users</a></li>
+    <li><a data-toggle="tab" href="#expTab">All Users</a></li>
+    <li><a data-toggle="tab" href="#myStore">All Ads</a></li>
     
   </ul>
 
   <div class="tab-content">
     <div id="activeTab" class="tab-pane fade in active">
-      <h3>Active Ads</h3>
+      <h3>Online Users</h3>
       
          <div class="container">
-          <div class="row" >
-              <div class="panel">
-                  <div class="row">
-                      <div class="col-md-3">
-                        <a href="#" class="thumbnail">
-                          <img src="img/x.jpg" alt="x-mark">
-                        </a>
-                      </div>
-
-                      <div class="col-md-9">
-                          
-                            <h1>Title For Active Ad 1</h1> 
-                              <span>Date</span>
-                         
-                          <br>
-                            <div>
-                                  <p maxlength="100" name="description"  id="description" style="text-overflow: ellipsis;
- word-wrap:break-word; padding:5px;">blah blah blah. blah blah blah. blah blah blah blah blah. blah blah blah. blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah.blah blah blah. blah blah blah. blah blah blah. blah blah blah.</p>
-                            </div>
-                          <br>
-                          <button type="button" class="btn btn-default" > <a href="#">View</a></button>
-                          <button type="button" class="btn btn-default" > <a href="#">Edit</a></button>
-                          <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
-                      </div>
-                    </div>
-                  <hr>
-                  <div class="row">
-                      <div class="col-md-3">
-                        <a href="#" class="thumbnail">
-                          <img src="img/x.jpg" alt="x-mark">
-                        </a>
-                      </div>
-
-                      <div class="col-md-9">
-                          
-                            <h1>Title For Active Ad 2</h1> 
-                              <span>Date</span>
-                         
-                          <br>
-                            <div>
-                                  <p maxlength="100" name="description"  id="description" style="text-overflow: ellipsis;
- word-wrap:break-word; padding:5px;">blah blah blah. blah blah blah. blah blah blah blah blah. blah blah blah. blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah.blah blah blah. blah blah blah. blah blah blah. blah blah blah.</p>
-                            </div>
-                          <br>
-                          <button type="button" class="btn btn-default" > <a href="#">View</a></button>
-                          <button type="button" class="btn btn-default" > <a href="#">Edit</a></button>
-                          <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
-                      </div>
-                    </div>
-                  <hr>
-                  <div class="row">
-                      <div class="col-md-3">
-                        <a href="#" class="thumbnail">
-                          <img src="img/x.jpg" alt="x-mark">
-                        </a>
-                      </div>
-
-                      <div class="col-md-9">
-                          
-                            <h1>Title For Active Ad 3</h1> 
-                              <span>Date</span>
-                         
-                          <br>
-                            <div>
-                                  <p maxlength="100" name="description"  id="description" style="text-overflow: ellipsis;
- word-wrap:break-word; padding:5px;">blah blah blah. blah blah blah. blah blah blah blah blah. blah blah blah. blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah.blah blah blah. blah blah blah. blah blah blah. blah blah blah.</p>
-                            </div>
-                          <br>
-                          <button type="button" class="btn btn-default" > <a href="#">View</a></button>
-                          <button type="button" class="btn btn-default" > <a href="#">Edit</a></button>
-                          <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
-                      </div>
-                    </div>
-              </div>
-          </div> 
+             <table class="table table-striped ">
+                 <thead>
+                     <tr>
+                         <th>User ID</th>
+                         <th>Username</th>
+                         <th colspan="2" style="text-align: center;">Account</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <!--php part -->
+                     <tr>
+                         <td>66666ae</td>
+                         <td><a href="#">topDogHustler</a></td>
+                         <td style="text-align: center;"><button><a href="#">Edit</a></button></td>
+                         <td style="text-align: center;"><button><a href="#">Delete</a></button></td>
+                     </tr>
+                     <!--end 1 table row-->
+                      
+                     <!--php part --> 
+                     <tr>
+                         <td>6ae6666</td>
+                         <td><a href="#">topUnderDog</a></td>
+                         <td style="text-align: center;"><button><a href="#">Edit</a></button></td>
+                         <td style="text-align: center;"><button><a href="#">Delete</a></button></td>
+                     </tr>
+                     <!--end 1 table row-->
+                 </tbody>
+             </table>
+          
         </div>
       </div>
       
       <!-- expired mentu -->
     <div id="expTab" class="tab-pane fade">
-      <h3>Expired Ads</h3>
+      <h3>All Users</h3>
        <div class="container">
-          <div class="row" >
-              <div class="panel">
-                  <div class="row">
-                      <div class="row">
-                      <div class="col-md-3">
-                        <a href="#" class="thumbnail">
-                          <img src="img/x.jpg" alt="x-mark">
-                        </a>
-                      </div>
-
-                      <div class="col-md-9">
-                          
-                            <h1>Title For Expired Ad 1</h1> 
-                              <span>Date</span>
-                         
-                          <br>
-                            <div>
-                                  <p maxlength="100" name="description"  id="description" style="text-overflow: ellipsis;
- word-wrap:break-word; padding:5px;">Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy
-                                Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huyHuy huy huy
-                                 Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy</p>
-                            </div>
-                          <br>
-                          <button type="button" class="btn btn-default" > <a href="#">View</a></button>
-                          <button type="button" class="btn btn-default" > <a href="#">Edit</a></button>
-                          <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
-                      </div>
-                    </div>
-                 <hr>
-                  <div class="row">
-                      <div class="col-md-3">
-                        <a href="#" class="thumbnail">
-                          <img src="img/x.jpg" alt="x-mark">
-                        </a>
-                      </div>
-
-                      <div class="col-md-9">
-                          
-                            <h1>Title For Expired Ad 2</h1> 
-                              <span>Date</span>
-                         
-                          <br>
-                            <div>
-                                  <p maxlength="100" name="description"  id="description" style="text-overflow: ellipsis;
- word-wrap:break-word; padding:5px;">Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy
-                                Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huyHuy huy huy
-                                 Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy Huy huy huy</p>
-                            </div>
-                          <br>
-                          <button type="button" class="btn btn-default" > <a href="#">View</a></button>
-                          <button type="button" class="btn btn-default" > <a href="#">Edit</a></button>
-                          <button type="button" class="btn btn-default" > <a href="#">Delete</a></button>
-                      </div>
-                    </div>
-                 <hr>    
-                 
-              </div>
-          </div> 
-        </div>
+          <table class="table table-striped ">
+               <thead>
+                     <tr>
+                         <th>User ID</th>
+                         <th>Username</th>
+                         <th colspan="2" style="text-align: center;">Account</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                      <!--php part -->
+                     <tr>
+                         <td>66666ae</td>
+                         <td><a href="#">topDogHustler</a></td>
+                         <td style="text-align: center;"><button><a href="#">Edit</a></button></td>
+                         <td style="text-align: center;"><button><a href="#">Delete</a></button></td>
+                     </tr>
+                     <!--end 1 table row-->
+                      
+                     <!--php part --> 
+                     <tr>
+                         <td>6ae6666</td>
+                         <td><a href="#">topUnderDog</a></td>
+                         <td style="text-align: center;"><button><a href="#">Edit</a></button></td>
+                         <td style="text-align: center;"><button><a href="#">Delete</a></button></td>
+                     </tr>
+                     <!--end 1 table row-->
+                     <!--php part -->
+                     <tr>
+                         <td>g33545</td>
+                         <td><a href="#">quitLifeScrub</a></td>
+                         <td style="text-align: center;"><button><a href="#">Edit</a></button></td>
+                         <td style="text-align: center;"><button><a href="#">Delete</a></button></td>
+                     </tr>
+                     <!--end 1 table row-->
+                     
+                     <!--php part -->
+                      <tr>
+                         <td>g7h545</td>
+                         <td><a href="#">trollio</a></td>
+                         <td style="text-align: center;"><button><a href="#">Edit</a></button></td>
+                         <td style="text-align: center;"><button><a href="#">Delete</a></button></td>
+                     </tr>
+                      <!--end 1 table row-->
+                     
+                 </tbody>
+          </table>
     </div>
       </div>
       <!-- store tab --->
     <div id="myStore" class="tab-pane fade">
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      <h3>All Ads</h3>
+      <div class="container">
+          <table class="table table-striped ">
+               <thead>
+                     <tr>
+                         <th>ID</th>
+                         <th>Title</th>
+                         <th>Username</th>
+                         <th colspan="2" style="text-align: center;">Options</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <!--php part -->
+                     <tr>
+                         <td>12345</td>
+                         <td><a href="#" >Test Title</a></td>
+                         <td><a href="#">topDogHustler</a></td>
+                         <td style="text-align: center;"><button><a href="#">Edit</a></button></td>
+                         <td style="text-align: center;"><button><a href="#">Delete</a></button></td>
+                     </tr>
+                     <!--end 1 table row-->
+                     
+                     <!--php part -->
+                     <tr>
+                         <td>54321</td>
+                         <td><a href="#">Test Title2</a></td>
+                         <td><a href="#">g7h545</a></td>
+                         <td style="text-align: center;"><button><a href="#">Edit</a></button></td>
+                         <td style="text-align: center;"><button><a href="#">Delete</a></button></td>
+                     </tr>
+                     <!--end 1 table row-->
+                 </tbody>
+        </table>
+        </div>
     </div>
     
   </div>
 </div>
-     
+     <!--body container end -->
       
      
-          
-          
-    </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript

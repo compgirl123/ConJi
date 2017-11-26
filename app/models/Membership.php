@@ -27,6 +27,7 @@ Class Membership extends CI_Model
 				   WHERE user_id ="."'".$curr_user."'";
 
 		$result = $this->db->query($normal);
+		var_dump($result);
 
 		if(!empty($result)){
 			$plan = "normal";

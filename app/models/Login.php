@@ -6,7 +6,7 @@ Class Login extends CI_Model
 	function validateUser()
 	{
 		// Connection to LocalHost
-		$db = $this->load->database('default');
+		/*$db = $this->load->database('default');
 		
 		$servername = "us-cdbr-iron-east-05.cleardb.net";
 		$username = "bef91df46d38c7";
@@ -43,7 +43,34 @@ Class Login extends CI_Model
 
 		}
 		
-		return $res;
+		return $res;*/
+
+		$this->load->database();
+		$result = '';
+		if(!empty($_POST['form-email']) && !empty($_POST['form-password']) ){
+		     $sql = "SELECT * FROM `User`
+				     WHERE email="."'".$_POST['form-email']."'".
+				     " AND password="."'".$_POST['form-password']."'";
+		     $result = $this->db->query($sql);
+				     //echo $sql;
+	    }
+	    $res = '';
+	    if(!empty($result)){
+	    	if ($result->num_rows() > 0) {
+	    	foreach ($result->result() as $row)
+			{
+			     $res = $row;
+			}
+		}
+		else
+	    {
+	    	$res = '';
+	    }
+
+	    }
+	    return $res;
+	    
+	    
 	}
 
 	

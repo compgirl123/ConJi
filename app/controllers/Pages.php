@@ -33,7 +33,7 @@ class Pages extends CI_Controller{
 			$this->load->model("login");
 			$userInfo = $this->login->validateUser();
 
-			$_SESSION['name'] = $userInfo['firstName']." ".$userInfo['lastName'];
+			$_SESSION['name'] = $userInfo->first_name." ".$userInfo->last_name;
 			header('Location: ' . base_url());
 			//$this->load->view('pages/'.'register');
 		}

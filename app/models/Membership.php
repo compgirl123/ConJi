@@ -72,7 +72,7 @@ Class Membership extends CI_Model
 		return "premium";
 	}
 
-	funciton membershipType()
+	function membershipType()
 	{
 		list($firstWord) = explode(' ', $_SESSION['name']);
 		var_dump(list($firstWord));

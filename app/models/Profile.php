@@ -9,6 +9,7 @@ Class Profile extends CI_Model
 		// Do membership detail stuff.
 		$this->load->model("membership");
 	    $userInfo = $this->membership->normalMember();
+	    
 	}
 }
 

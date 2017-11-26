@@ -326,35 +326,70 @@ height:100%;
                     </p>
                     <!--<button style="padding: 10px;" id="btnPremium" class="btnPremium">Change Plan</button>-->
                     <div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">Change Plan</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="" >Silver</a>
-    <a href="">Premium</a>
-  </div>
-</div>
+                      <button onclick="myFunction()" class="dropbtn">Change Plan</button>
+                        <div id="myDropdown" class="dropdown-content" onclick="confirmation()">
+                          <a href="" id="silver" value="silver">Silver</a>
+                          <a href="" id="premium" value="premium" >Premium</a>
+                        </div>
+                      </div>
+                  <script>
+                  /* When the user clicks on the button, 
+                  toggle between hiding and showing the dropdown content */
+                  function myFunction() {
+                      document.getElementById("myDropdown").classList.toggle("show");
+                  }
 
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+                  function confirmation(){
+                    var res = confirm('Are you Sure you Want to Proceed?');
+                    if (res) {
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+                        $("#silver").attr('href','checkout');
+                        $("#premium").attr('href','checkout');
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+                        var silver1 = JSON.stringify($("#silver").attr('checked','checked'));
+                        var silver2 = JSON.parse(silver1);
+
+                        var plan1 = '';
+                        for (var key in silver2) {
+                        if (key = "selector") {
+                            plan1 = silver2[key];
+                        }
+                        }
+
+                        var premium1 = JSON.stringify($("#premium").attr('checked','checked'));
+                        var premium2 = JSON.parse(premium1);
+
+                        var plan2 = '';
+                        for (var key in premium2) {
+                        if (key = "selector") {
+                            plan2 = premium2[key];
+                        }
+                        }
+                        $("#silver").attr('href','checkout'+'?'+'plan='+plan1.substring(1,plan1.len));
+                        $("#premium").attr('href','checkout'+'?'+'plan='+plan2.substring(1,plan2.len));
+                        // 50$ silver
+                        // 90$ premium
+                        // 0$ normal
+          
+                    }
+                  }
+
+
+                  // Close the dropdown if the user clicks outside of it
+                  window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+
+                      var dropdowns = document.getElementsByClassName("dropdown-content");
+                      var i;
+                      for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                          openDropdown.classList.remove('show');
+                        }
+                      }
+                    }
+                  }
+              </script>
               </div>
             </nav>   
         </div>

@@ -93,6 +93,14 @@ class Pages extends CI_Controller{
 
 	}
 
+	function checkout()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('templates/css');
+		$this->load->view('pages/'.'checkout');
+		$this->load->view('templates/footer');
+	}
+
 
 
 	

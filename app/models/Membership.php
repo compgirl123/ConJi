@@ -57,6 +57,23 @@ Class Membership extends CI_Model
 		}
 		
 		return "silver";
+
+		/*$curr_user = $this->currentUserId();
+
+
+		$normal = "SELECT user_id FROM `silver`
+				   WHERE user_id ="."'".$curr_user."'";
+
+		$result = $this->db->query($normal);
+
+		if($result->num_rows() > 0){
+			$plan = "normal";
+		}
+		else{
+			$plan = '';
+		}
+		
+		return $plan;*/
 	}
 
 	function premiumMember()
@@ -98,7 +115,10 @@ Class Membership extends CI_Model
 
 	}
 
-	
+	function otherPlans()
+	{
+
+	}
 }
 
 ?>

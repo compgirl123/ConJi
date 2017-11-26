@@ -23,11 +23,13 @@ Class Membership extends CI_Model
 		$curr_user = $this->currentUserId();
 
 		$normal = "SELECT user_id FROM `normal`
-		WHERE user_id ="."'".$curr_user."'";
+				   WHERE user_id ="."'".$curr_user."'";
 
 		var_dump($normal);
 
 		$result = $this->db->query($normal);
+
+		
 
 		//var_dump($_SESSION['name']);
 		//$get_membership = "INSERT INTO `normal`(user_id) VALUES(SELECT "
@@ -88,7 +90,13 @@ Class Membership extends CI_Model
 
 		$curr_userid = "SELECT user_id FROM `user` WHERE first_name ="."'".$first_name."'". "AND last_name ="."'".$last_name."'"."";
 		var_dump($curr_userid);
+
 		$curr_userid = $this->db->query($curr_userid);
+
+		foreach ($result->result() as $row)
+		{
+			 echo $row;
+		}
 
 		return $curr_userid;
 

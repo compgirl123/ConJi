@@ -19,8 +19,9 @@ Class Membership extends CI_Model
 							)";
 			$result = $this->db->query($create_table);
 		}
-
-		//$get_membership = "INSERT INTO "
+		var_dump($_SESSION['name']);
+		//$get_membership = "INSERT INTO `normal`(user_id) VALUES(SELECT "
+		
 		
 		//return $result;
 
@@ -44,10 +45,11 @@ Class Membership extends CI_Model
 			$result = $this->db->query($create_table);
 		}
 		
-		return $result;
+		//return $result;
+		return "silver";
 	}
 
-	function platinumMember()
+	function premiumMember()
 	{
 		if ($this->db->table_exists('premium'))
 		{
@@ -64,7 +66,9 @@ Class Membership extends CI_Model
 			$result = $this->db->query($create_table);
 		}
 		
-		return $result;
+		//return $result;
+
+		return "premium";
 	}
 
 	

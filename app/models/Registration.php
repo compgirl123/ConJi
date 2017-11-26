@@ -41,6 +41,9 @@ Class Registration extends CI_Model
 
 			 $result = $this->db->query($user);
 
+			 $plan = "INSERT INTO `normal`(user_id) SELECT user_id FROM `user`";
+			 $result = $this->db->query($plan);
+
 	}
 }
 

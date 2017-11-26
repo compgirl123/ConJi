@@ -81,6 +81,7 @@ Class Membership extends CI_Model
 
 		$curr_userid = "SELECT user_id FROM `user` WHERE first_name ="."'".$first_name."'". "AND last_name ="."'".$last_name."'"."";
 		$result = $this->db->query($curr_userid);
+		var_dump($result);
 /*
 		SELECT `normal.user_id` as normal FROM `normal`
 		INNER JOIN `user` ON `normal.user_id` = `user.user_id`

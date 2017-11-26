@@ -75,7 +75,8 @@ Class Membership extends CI_Model
 	function membershipType()
 	{
 		$first_name = substr($_SESSION['name'], 0, strpos($_SESSION['name'], ' '));
-		$last_name = substr($_SESSION['name'], 1, strpos($_SESSION['name'], ' '));
+		//$last_name = substr($_SESSION['name'], 1, strpos($_SESSION['name'], ' '));
+		$last_name = substr($_SESSION['name'], (strpos($_SESSION['name'], ' ') ?: -1) + 1); // Returns This_is_a_string
 		/*var_dump($first_name);
 		var_dump($last_name);*/
 

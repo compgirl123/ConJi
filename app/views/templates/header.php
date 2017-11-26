@@ -60,6 +60,7 @@
           <ul class="nav navbar-nav navbar-right">
           <li> 
             <?php
+            //var_dump($_SESSION['name']);
             $href = $_SERVER['REQUEST_URI'];
              if (strpos($href, 'pages') !== false) {
               if(!(isset($_SESSION['name']))){

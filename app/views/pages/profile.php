@@ -280,6 +280,9 @@ height:100%;
                     
                     <h1>Hello <?php echo $_SESSION['name'] ?>!</h1>
                     <h6>My Details:</h6>
+                    <?php
+                    echo $members;
+                    ?>
                     <p>Membership : Premium Plan</p>
                     <button style="padding: 10px;" id="btnPremium" class="btnPremium">Go Premium!</button>
               </div>

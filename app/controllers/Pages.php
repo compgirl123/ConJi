@@ -18,7 +18,6 @@ class Pages extends CI_Controller{
 		$this->load->view('templates/header');
 		$this->load->view('pages/'.'login');
 		$this->load->view('templates/footer');
-		//session_start();
 
 		$this->load->model("login");
 		$validateLogin = $this->login->validateUser();
@@ -29,15 +28,13 @@ class Pages extends CI_Controller{
 		}
 		else
 		{
-			//ession_start();
 			$this->load->model("login");
 			$userInfo = $this->login->validateUser();
 
 			$_SESSION['name'] = $userInfo->first_name." ".$userInfo->last_name;
 			header('Location: ' . base_url());
-			//$this->load->view('pages/'.'register');
+			//var_dump(base_url());
 		}
-        //var_dump(empty($validateLogin));
 
 	}
 	
@@ -60,7 +57,6 @@ class Pages extends CI_Controller{
 		// 1 means empty
 		if($emptyError == 0)
 		{
-			//$this->getNameofUser();
 			$this->load->model("registration");
 			$this->registration->createTable();
 			$this->registration->addUser();
@@ -71,9 +67,7 @@ class Pages extends CI_Controller{
 		$this->load->view('templates/header');
 		$this->load->view('pages/'.'register');
 		$this->load->view('templates/footer');
-		
 		$this->load->model("registration");
-		//$this->registration->createTable();
 
 	}
 
@@ -88,13 +82,14 @@ class Pages extends CI_Controller{
 
 	function profile()
 	{
+		$this->load->model("membership");
+		$data['members'] = $this->membership->normalMember();
 		$this->load->view('templates/header');
 		$this->load->view('templates/css');
-		$this->load->view('pages/'.'profile');
+
+		$this->load->view('pages/'.'profile',$data);
 		$this->load->view('templates/footer');
 
-		$this->load->model("profile");
-		$this->profile->NormalMemberDetails();
 
 	}
 

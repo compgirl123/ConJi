@@ -90,9 +90,11 @@
                         <div class="col-md-11">
                           <p name="objDesc" id="objDesc">
                           <?php
-                              $a = $_GET["plan"];
-                              if($a == "silver" || $a == "premium"){
-                                  echo strtoupper($a);
+                              $plan = $_GET["plan"];
+                              $cost = $_GET["cost"];
+
+                              if(($plan == "silver" || $plan == "premium") && ($cost == "50" || $cost == "90") ){
+                                  echo strtoupper($plan);
                                }
                                else{
                                 header("Location: profile");
@@ -101,7 +103,11 @@
                           </p>
                         </div>
                         <div class="col-md-1">
-                          <label name="priceValue" id="priceValue" >$0.00</label>
+                          <label name="priceValue" id="priceValue" >
+                            <?php
+                            echo "$".$cost.".00";
+                            ?>
+                          </label>
                         </div>
                     </div>
                   </div>
@@ -111,7 +117,12 @@
                     <div class="container">
                     <div class="row">
                         <div class="col-md-11"><label>Total Price</label></div>
-                          <div class="col-md-1"><label name="totalPriceValue" id="totalPriceValue" >$0.00</label></div>
+                          <div class="col-md-1"><label name="totalPriceValue" id="totalPriceValue" >
+                            <?php
+                            echo "$".$cost.".00";
+                            ?>
+                            
+                          </label></div>
                          
                        
                     </div>

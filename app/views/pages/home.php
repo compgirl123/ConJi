@@ -40,30 +40,23 @@
       <div class="container">
         <div class="row">
 
-  <div id="navbar" class=" navbar-nav" >
-      <div class="btn-group">
-  <button type="button" class="btn btn-danger">Location</button>
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="caret"></span>
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-      <li class="dropdown-header">Montreal</li>
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-     <li class="dropdown-header">Montreal</li>
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-      <li role="separator" class="divider"></li>
-     <li class="dropdown-header">Montreal</li>
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-  </ul>
-</div>
+          <div id="navbar" class=" navbar-nav" >
+              <div class="btn-group">
+          <button type="button" class="btn btn-danger">Location</button>
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+              <li class="dropdown-header">Quebec</li>
+            <li><a href="#">Montreal</a></li>
+            <li><a href="#">Quebec City</a></li>
+            <li role="separator" class="divider"></li>
+             <li class="dropdown-header">Ontario</li>
+            <li><a href="#">Ottawa</a></li>
+            <li><a href="#">Toronto</a></li>
+          </ul>
+        </div>
         </div><!--/.nav-collapse -->
 
 

@@ -30,7 +30,7 @@ $errorEmailOrPass =  "<p style='color:red;'>*Incorrect email address or password
             if($badEmailOrPass == false)
             {
                 //access db and login.
-                echo 'good to go!' .'<br>';
+               
             }
             
             
